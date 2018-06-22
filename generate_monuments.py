@@ -36,4 +36,6 @@ with cache.cursor() as cur:
 	cur.execute('insert into monuments (page_title, lat, lon, image, country) select monument_article, lat, lon, image, "cs" from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image!="" and lat is not null and lon is not null')
 with cache.cursor() as cur:
 	cur.execute('insert into monuments (page_title, lat, lon, image, country) select monument_article, lat, lon, NULL, "cs" from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image="" and lat is not null and lon is not null')
+with cache.cursor() as cur:
+	cur.execute('delete from monuments_cache;')
 cache.commit()
