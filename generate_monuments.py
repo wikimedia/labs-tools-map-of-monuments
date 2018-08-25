@@ -30,6 +30,7 @@ for row in data:
 		cur.execute('insert into monuments_cache(page_title) values(%s)', row[0])
 cache.commit()
 
+"""
 with cache.cursor() as cur:
 	cur.execute('delete from monuments;')
 with cache.cursor() as cur:
@@ -39,3 +40,13 @@ with cache.cursor() as cur:
 with cache.cursor() as cur:
 	cur.execute('delete from monuments_cache;')
 cache.commit()
+"""
+
+f = open('public/monuments.js', 'w')
+f.write('var addressPoints = [\n')
+with cache.cursor() as cur:
+	cur.execute('select monument_article, lat, lon, image from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image!="" and lat is not null and lon is not null')
+	data = cur.fetchall()
+	for row in data:
+		f.write('[%s, %s, "%s"],\n' % (row[1], row[2], "<h3>%s</h3>" % row[0]))
+f.write('];')
