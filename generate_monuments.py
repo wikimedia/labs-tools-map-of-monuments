@@ -48,5 +48,5 @@ with cache.cursor() as cur:
 	cur.execute('select monument_article, lat, lon, image from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image!="" and lat is not null and lon is not null')
 	data = cur.fetchall()
 	for row in data:
-		f.write('[%s, %s, "%s"],\n' % (row[1], row[2], "<h3>%s</h3>" % row[0]))
+		f.write('[%s, %s, "%s"],\n' % (row[1], row[2], '<h3><a href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a></h3>' % (row[0], row[0])))
 f.write('];')
