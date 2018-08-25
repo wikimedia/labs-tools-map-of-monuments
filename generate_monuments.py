@@ -51,5 +51,5 @@ with cache.cursor() as cur:
 	data = cur.fetchall()
 	for row in data:
 		image = "https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/100px-%s" % (hashlib.md5(row[3].replace(' ', '_').encode('utf-8')).hexdigest()[0:1], hashlib.md5(row[3].replace(' ', '_').encode('utf-8')).hexdigest()[0:2], row[3].replace(' ', '_'), row[3].replace(' ', '_'))
-		f.write('[%s, %s, \'%s\'],\n' % (row[1], row[2], '<img src="%s" /><br /><a href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>' % (image, quote_plus(row[0].replace(' ', '_')), row[0])))
+		f.write('[%s, %s, \'%s\'],\n' % (row[1], row[2], '<img src="%s" /><br /><a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>' % (image, quote_plus(row[0].replace(' ', '_')), row[0])))
 f.write('];')
