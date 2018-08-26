@@ -12,6 +12,7 @@ if 'QUERY_STRING' in os.environ:
 	qs = cgi.parse_qs(QS)
 	try:
 		startswith = qs['startswith'][0]
+		startswith = startswith[0].upper() + startswith[1:]
 	except:
 		startswith = None
 
