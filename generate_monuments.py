@@ -32,7 +32,7 @@ for row in data:
 		cur.execute('insert into monuments_cache(page_title) values(%s)', row[0])
 cache.commit()
 
-"""
+
 with cache.cursor() as cur:
 	cur.execute('delete from monuments;')
 with cache.cursor() as cur:
@@ -42,20 +42,11 @@ with cache.cursor() as cur:
 with cache.cursor() as cur:
 	cur.execute('delete from monuments_cache;')
 cache.commit()
-"""
-
-f = open('public/monuments.js', 'w')
-f.write('var addressPoints = [\n')
-with cache.cursor() as cur:
-	cur.execute('select monument_article, lat, lon, replace(image, "\'", "\\\\\'") from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image!="" and lat is not null and lon is not null')
-	data = cur.fetchall()
-	for row in data:
-		image = "https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/100px-%s" % (hashlib.md5(row[3].replace(' ', '_').encode('utf-8')).hexdigest()[0:1], hashlib.md5(row[3].replace(' ', '_').encode('utf-8')).hexdigest()[0:2], row[3].replace(' ', '_'), row[3].replace(' ', '_'))
-		f.write('[%s, %s, \'%s\'],\n' % (row[1], row[2], '<img src="%s" /><br /><a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>' % (image, quote_plus(row[0].replace(' ', '_')), row[0])))
 
 with cache.cursor() as cur:
-	cur.execute('select monument_article, lat, lon from monuments_cache join s51138__heritage_p.`monuments_cz_(cs)` on monument_article=page_title where image="" and lat is not null and lon is not null')
+	cur.execute('select id, image from monuments where image is not null')
 	data = cur.fetchall()
 	for row in data:
-		f.write('[%s, %s, \'%s\'],\n' % (row[1], row[2], '<a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>' % (quote_plus(row[0].replace(' ', '_')), row[0])))
-f.write('];')
+		with cache.cursor() as cur2:
+			cur2.execute('update monuments set image_url=%s where id=%s', ("https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/100px-%s" % (hashlib.md5(row[1].replace(' ', '_').encode('utf-8')).hexdigest()[0:1], hashlib.md5(row[1].replace(' ', '_').encode('utf-8')).hexdigest()[0:2], row[1].replace(' ', '_'), row[1].replace(' ', '_')), row[0]))
+	cache.commit()
