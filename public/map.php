@@ -20,7 +20,7 @@
 		if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
 		else $startswith = "";
 		?>
-		<script src="get_monuments.py?limit=<? $limit ?>&startswith=<? $startswith ?>"></script>
+		<script src="get_monuments.py?limit=<?php echo $limit ?>&startswith=<?php echo $startswith ?>"></script>
     <script>
     	var style = 'osm-intl';
 	var server = 'https://maps.wikimedia.org/';
