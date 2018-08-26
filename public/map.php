@@ -15,12 +15,10 @@
     <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 		<script src="MarkerCluster/leaflet.markercluster-src.js"></script>
 		<?php
-		if(isset($_GET['limit'])) $limit = $_GET['limit'];
-		else $limit = "max";
 		if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
 		else $startswith = "";
 		?>
-		<script src="get_monuments.py?limit=<?php echo $limit ?>&startswith=<?php echo $startswith ?>"></script>
+		<script src="get_monuments.py?startswith=<?php echo $startswith ?>"></script>
     <script>
     	var style = 'osm-intl';
 	var server = 'https://maps.wikimedia.org/';
