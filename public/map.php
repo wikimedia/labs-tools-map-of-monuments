@@ -1,3 +1,7 @@
+<?php
+if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
+else $startswith = "";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,22 +14,16 @@
   </head>
   <body>
 		<div id="map"></div>
-		<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith">
-		<button type="button" onclick="send()">Odeslat</button>
+		<form>
+		<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
+		<input type="submit" value="Odeslat" />
+		</form>
 
     <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
     <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 		<script src="MarkerCluster/leaflet.markercluster-src.js"></script>
-		<?php
-		if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
-		else $startswith = "";
-		?>
 		<script src="get_monuments.py?startswith=<?php echo $startswith ?>"></script>
     <script>
-			function send()
-			{
-				window.location.html = "https://tools.wmflabs.org/map-of-monuments/map.php?startswith=" + document.getElementById('startswith').value;
-			}
     	var style = 'osm-intl';
 			var server = 'https://maps.wikimedia.org/';
 
