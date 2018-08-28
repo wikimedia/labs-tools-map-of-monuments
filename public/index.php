@@ -13,11 +13,11 @@ else $startswith = "";
 		<title>Mapa Popiš památku!</title>
 	</head>
 	<body>
-		<div id="map"></div>
 		<form>
-		<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
-		<input type="submit" value="Odeslat" />
+			<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
+			<input type="submit" value="Odeslat" />
 		</form>
+		<div id="map"></div>
 
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
