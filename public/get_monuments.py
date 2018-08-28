@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
+import urllib
 import oursql
 import os
 import cgi
@@ -15,6 +16,8 @@ if 'QUERY_STRING' in os.environ:
 		startswith = startswith[0].upper() + startswith[1:]
 	except:
 		startswith = None
+else:
+	startswith = None
 
 print 'Content-Type: application/javascript'
 print
@@ -29,5 +32,5 @@ with conn.cursor() as cur:
 	data = cur.fetchall()
 
 for row in data:
-	print '\t[%s, %s, \'<img src="%s" /><br /><a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>\'],' % (row[0], row[1], row[2], "a", row[3])
+	print '\t[%s, %s, \'<img src="%s" /><br /><a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>\'],' % (row[0], row[1], row[2], urllib.quote(row[3]), row[3])
 print '];'
