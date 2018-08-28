@@ -26,11 +26,21 @@ print 'var addressPoints = ['
 
 with conn.cursor() as cur:
 	if startswith:
-		cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title from monuments where page_title like ?', (startswith + '%', ))
+		cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title from monuments where image is not null and page_title like ?', (startswith + '%', ))
 	else:
-		cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title from monuments')
+		cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title from monuments where image is not null')
 	data = cur.fetchall()
 
 for row in data:
 	print '\t[%s, %s, \'<img src="%s" /><br /><a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>\'],' % (row[0], row[1], row[2], urllib.quote(row[3]), row[3])
+
+with conn.cursor() as cur:
+	if startswith:
+		cur.execute('select lat, lon, page_title from monuments where image is null and page_title like ?', (startswith + '%', ))
+	else:
+		cur.execute('select lat, lon, page_title from monuments where image is null')
+	data = cur.fetchall()
+
+for row in data:
+	print '\t[%s, %s, \'<a target="_blank" href="https://cs.wikipedia.org/wiki/%s?veaction=edit">%s</a>\'],' % (row[0], row[1], urllib.quote(row[2]), row[2])
 print '];'
