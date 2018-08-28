@@ -4,27 +4,27 @@ else $startswith = "";
 ?>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="MarkerCluster/MarkerCluster.css">
-    <link rel="stylesheet" href="MarkerCluster/MarkerCluster.Default.css">
-    <title>Mapa Popiš památku!</title>
-  </head>
-  <body>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.css">
+		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.css">
+		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.Default.css">
+		<title>Mapa Popiš památku!</title>
+	</head>
+	<body>
 		<div id="map"></div>
 		<form>
 		<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
 		<input type="submit" value="Odeslat" />
 		</form>
 
-    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
-    <script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 		<script src="MarkerCluster/leaflet.markercluster-src.js"></script>
 		<script src="get_monuments.py?startswith=<?php echo $startswith ?>"></script>
-    <script>
-    	var style = 'osm-intl';
+		<script>
+			var style = 'osm-intl';
 			var server = 'https://maps.wikimedia.org/';
 
 			// Create a map
@@ -45,6 +45,6 @@ else $startswith = "";
 				markers.addLayer(marker);
 			}
 			map.addLayer(markers);
-    </script>
-  </body>
+		</script>
+	</body>
 </html>
