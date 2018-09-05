@@ -1,0 +1,12 @@
+#map { height: 600px; }
+
+label {
+	font-size: 1.2em;
+}
+
+form {
+	display: flex;
+}
+form.left {
+	padding-right: 100px;	
+}

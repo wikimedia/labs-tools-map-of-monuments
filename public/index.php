@@ -9,16 +9,20 @@ else $contains = "";
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.css">
-		<link rel="stylesheet" href="stylesheet.css">
+		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/stylesheet.css">
 		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.css">
 		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.Default.css">
 		<title>Mapa Popiš památku!</title>
 	</head>
 	<body>
 		<form>
-			<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
-			<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
-			<input type="submit" value="Odeslat" />
+			<div class="left">
+				<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
+				<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
+			</div>
+			<div class="right">
+				<input type="submit" value="Hledat" />
+			</div>
 		</form>
 		<div id="map"></div>
 
