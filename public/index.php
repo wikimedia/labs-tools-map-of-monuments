@@ -16,8 +16,8 @@ else $contains = "";
 	</head>
 	<body>
 		<form>
-			<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
-			<label for="contains">Najít pouze kulturní památky začínající na: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>">
+			<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
+			<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
 			<input type="submit" value="Odeslat" />
 		</form>
 		<div id="map"></div>
