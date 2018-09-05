@@ -1,6 +1,8 @@
 <?php
 if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
 else $startswith = "";
+if(isset($_GET['contains'])) $contains = $_GET['contains'];
+else $contains = "";
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,6 +17,7 @@ else $startswith = "";
 	<body>
 		<form>
 			<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>">
+			<label for="contains">Najít pouze kulturní památky začínající na: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>">
 			<input type="submit" value="Odeslat" />
 		</form>
 		<div id="map"></div>
@@ -22,7 +25,7 @@ else $startswith = "";
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
 		<script src="MarkerCluster/leaflet.markercluster-src.js"></script>
-		<script src="get_monuments.py?startswith=<?php echo $startswith ?>"></script>
+		<script src="get_monuments.py?startswith=<?php echo $startswith ?>&contains=<?php echo $contains ?>"></script>
 		<script>
 			var style = 'osm-intl';
 			var server = 'https://maps.wikimedia.org/';
