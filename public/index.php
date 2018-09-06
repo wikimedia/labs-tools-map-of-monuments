@@ -15,16 +15,26 @@ else $contains = "";
 		<title>Mapa Popiš památku!</title>
 	</head>
 	<body>
-		<form>
-			<div class="left">
-				<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
-				<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
-			</div>
-			<div class="right">
-				<input type="submit" value="Hledat" />
-			</div>
-		</form>
-		<div id="map"></div>
+		<div class="navbar">
+			<h1 class="navbar-brand">Map of monuments</h1>
+			<a href="#">Open source repo</a>
+		</div>
+
+		<div class="container">
+			<form>
+				<div class="row">
+					<div class="col-6">
+						<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
+					</div>
+					<div class="col-6">
+						<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
+					</div>
+				</div>
+
+				<input class="btn btn-primary btn-block" type="submit" value="Hledat" />
+			</form>
+			<div id="map"></div>
+		</div>
 
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
