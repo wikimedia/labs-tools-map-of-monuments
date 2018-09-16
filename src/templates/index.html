@@ -6,11 +6,11 @@
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/stylesheet.css">
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/MarkerCluster/MarkerCluster.css">
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/MarkerCluster/MarkerCluster.Default.css">
-		<title>Mapa památek</title>
+		<title>{{ _("Map of Monuments") }}</title>
 	</head>
 	<body>
 		<div class="navbar">
-			<h1 class="navbar-brand">Mapa památek</h1>
+			<h1 class="navbar-brand">{{ _("Map of Monuments") }}</h1>
 			<a href="#">Open source repo</a>
 		</div>
 
@@ -18,14 +18,14 @@
 			<form>
 				<div class="row">
 					<div class="col-6">
-						<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="{{ startswith }}"><br />
+						<label for="startswith">{{ _("Find only cultural heritage starting with") }}: </label><input type="text" id="startswith" name="startswith" value="{{ startswith }}"><br />
 					</div>
 					<div class="col-6">
-						<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
+						<label for="contains">{{ _("Find only cultural heritage containing") }}: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
 					</div>
 				</div>
 
-				<input class="btn btn-primary btn-block" type="submit" value="Hledat" />
+				<input class="btn btn-primary btn-block" type="submit" value="{{ _("Search") }}" />
 			</form>
 			<div id="map"></div>
 		</div>
