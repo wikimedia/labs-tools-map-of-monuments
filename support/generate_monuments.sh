@@ -1,4 +1,4 @@
 #!/bin/bash
 
-source ~/heritage/venv/bin/activate
-python ~/heritage/generate_monuments.py
+source ~/www/python/venv/bin/activate
+python ~/support/generate_monuments.py
