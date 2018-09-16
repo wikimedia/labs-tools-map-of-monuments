@@ -19,7 +19,7 @@ cache = pymysql.connect(
 	charset='utf8mb4',
 )
 
-countries = ['cz']
+countries = open('countries.txt').read().splitlines()
 
 with cache.cursor() as cur:
 	cur.execute('TRUNCATE TABLE monuments;')
