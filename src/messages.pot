@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-09-16 20:55+0200\n"
+"POT-Creation-Date: 2018-09-16 22:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,8 @@ msgstr ""
 
 #: /data/project/map-of-monuments/src/templates/index.html:9
 #: /data/project/map-of-monuments/src/templates/index.html:13
+#: /data/project/map-of-monuments/src/templates/maintenance.html:9
+#: /data/project/map-of-monuments/src/templates/maintenance.html:13
 msgid "Map of Monuments"
 msgstr ""
 
@@ -32,5 +34,9 @@ msgstr ""
 
 #: /data/project/map-of-monuments/src/templates/index.html:28
 msgid "Search"
+msgstr ""
+
+#: /data/project/map-of-monuments/src/templates/maintenance.html:16
+msgid "There's ongoing maintenance. Please wait a few of minutes and try again."
 msgstr ""
 
