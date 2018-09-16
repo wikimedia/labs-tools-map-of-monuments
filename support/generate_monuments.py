@@ -24,12 +24,13 @@ countries = ['cz']
 with cache.cursor() as cur:
 	cur.execute('TRUNCATE TABLE monuments;')
 
-def process_url(url):
-	r = requests.get(url)
+def process_url(payload):
+	r = requests.get('https://tools.wmflabs.org/heritage/api/api.php', params=payload)
+	print(r.url)
 	data = r.json()
 	monuments = data['monuments']
 	for monument in monuments:
-		if monument['monument_article'] != '':
+		if monument['monument_article'] != '' and monument['lat'] is not None and monument['lon'] is not None:
 			wiki = toolforge.connect('%swiki' % monument['lang'])
 			with wiki.cursor() as cur:
 				cur.execute('SELECT page_id FROM page WHERE page_namespace=0 AND page_title=%s', monument['monument_article'].replace(' ', '_'))
@@ -50,10 +51,16 @@ def process_url(url):
 							image_url,
 							monument['country']
 						))
+			wiki.close()
+	cache.commit()
 	if data.get('continue', {}).get('srcontinue'):
-		process_url(url + '&srcontinue=%s' % data.get('continue', {}).get('srcontinue'))
+		payload['srcontinue'] = data.get('continue', {}).get('srcontinue')
+		process_url(payload)
 
 
 for country in countries:
-	process_url('https://tools.wmflabs.org/heritage/api/api.php?action=search&srcountry=%s&format=json' % country)
-	cache.commit()
+	process_url({
+		"action": "search",
+		"srcountry": country,
+		"format": "json"
+	})
