@@ -1,22 +1,16 @@
-<?php
-if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
-else $startswith = "";
-if(isset($_GET['contains'])) $contains = $_GET['contains'];
-else $contains = "";
-?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.css">
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/stylesheet.css">
-		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.css">
-		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.Default.css">
-		<title>Mapa Popiš památku!</title>
+		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/MarkerCluster/MarkerCluster.css">
+		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/MarkerCluster/MarkerCluster.Default.css">
+		<title>Mapa památek</title>
 	</head>
 	<body>
 		<div class="navbar">
-			<h1 class="navbar-brand">Map of monuments</h1>
+			<h1 class="navbar-brand">Mapa památek</h1>
 			<a href="#">Open source repo</a>
 		</div>
 
@@ -24,10 +18,10 @@ else $contains = "";
 			<form>
 				<div class="row">
 					<div class="col-6">
-						<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
+						<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="{{ startswith }}"><br />
 					</div>
 					<div class="col-6">
-						<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
+						<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
 					</div>
 				</div>
 
@@ -38,8 +32,8 @@ else $contains = "";
 
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
 		<script src="https://tools-static.wmflabs.org/cdnjs/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
-		<script src="MarkerCluster/leaflet.markercluster-src.js"></script>
-		<script src="get_monuments.py?startswith=<?php echo $startswith ?>&contains=<?php echo $contains ?>"></script>
+		<script src="https://tools-static.wmflabs.org/map-of-monuments/MarkerCluster/leaflet.markercluster-src.js"></script>
+		<script src="get_monuments.py?startswith={{ startswith }}&contains={{ contains }}"></script>
 		<script>
 			var style = 'osm-intl';
 			var server = 'https://maps.wikimedia.org/';
