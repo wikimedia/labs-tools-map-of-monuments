@@ -52,6 +52,8 @@ def force_https():
 
 @app.route('/')
 def index():
+    if app.config.get('MAINTENANCE', False):
+        return render_template('maintenance.html')
     return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''))
 
 @app.route('/get_monuments')
