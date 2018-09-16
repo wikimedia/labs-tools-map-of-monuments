@@ -43,13 +43,14 @@ def process_url(payload):
 						image_url_name = image.replace(' ', '_')
 						image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/%s/%s/%s/100px-%s" % (hash[0:1], hash[0:2], image_url_name, image_url_name)
 					with cache.cursor() as cur:
-						cur.execute('INSERT INTO monuments(page_title, lat, lon, image, image_url, country) VALUES (%s, %s, %s, %s, %s, %s)', (
+						cur.execute('INSERT INTO monuments(page_title, lat, lon, image, image_url, country, lang) VALUES (%s, %s, %s, %s, %s, %s, %s)', (
 							monument['monument_article'],
 							monument['lat'],
 							monument['lon'],
 							image,
 							image_url,
-							monument['country']
+							monument['country'],
+							monument['lang'],
 						))
 			wiki.close()
 	cache.commit()
