@@ -1,3 +1,5 @@
 venv
 config.yaml
 .vscode
+composer.phar
+/vendor/
