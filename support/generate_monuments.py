@@ -24,9 +24,10 @@ countries = ['cz']
 with cache.cursor() as cur:
 	cur.execute('TRUNCATE TABLE monuments;')
 
-for country in countries:
-	r = requests.get('https://tools.wmflabs.org/heritage/api/api.php?action=search&srcountry=%s&format=json' % country)
-	monuments = r.json()['monuments']
+def process_url(url):
+	r = requests.get(url)
+	data = r.json()
+	monuments = data['monuments']
 	for monument in monuments:
 		if monument['monument_article'] != '':
 			wiki = toolforge.connect('%swiki' % monument['lang'])
@@ -49,4 +50,10 @@ for country in countries:
 							image_url,
 							monument['country']
 						))
+	if data.get('continue', {}).get('srcontinue'):
+		process_url(url + '&srcontinue=%s' % data.get('continue', {}).get('srcontinue'))
+
+
+for country in countries:
+	process_url('https://tools.wmflabs.org/heritage/api/api.php?action=search&srcountry=%s&format=json' % country)
 	cache.commit()
