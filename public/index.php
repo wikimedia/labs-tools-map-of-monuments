@@ -12,11 +12,11 @@ else $contains = "";
 		<link rel="stylesheet" href="https://tools-static.wmflabs.org/map-of-monuments/stylesheet.css">
 		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.css">
 		<link rel="stylesheet" href="MarkerCluster/MarkerCluster.Default.css">
-		<title><?php $I18N->msg("brand"); ?></title>
+		<title>Mapa Popiš památku!</title>
 	</head>
 	<body>
 		<div class="navbar">
-			<h1 class="navbar-brand"><?php echo $I18N->msg("brand"); ?></h1>
+			<h1 class="navbar-brand">Map of monuments</h1>
 			<a href="#">Open source repo</a>
 		</div>
 
@@ -24,14 +24,14 @@ else $contains = "";
 			<form>
 				<div class="row">
 					<div class="col-6">
-						<label for="startswith"><?php echo $I18N->msg("filter-startswith"); ?>: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
+						<label for="startswith">Najít pouze kulturní památky začínající na: </label><input type="text" id="startswith" name="startswith" value="<?php echo $startswith ?>"><br />
 					</div>
 					<div class="col-6">
-						<label for="contains"><?php echo $I18N->msg("filter-contains"); ?>: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
+						<label for="contains">Najít pouze kulturní památky obsahující: </label><input type="text" id="contains" name="contains" value="<?php echo $contains ?>"><br />
 					</div>
 				</div>
 
-				<input class="btn btn-primary btn-block" type="submit" value="<?php echo $I18N->msg("search"); ?>" />
+				<input class="btn btn-primary btn-block" type="submit" value="Hledat" />
 			</form>
 			<div id="map"></div>
 		</div>
