@@ -3,12 +3,6 @@ if(isset($_GET['startswith'])) $startswith = $_GET['startswith'];
 else $startswith = "";
 if(isset($_GET['contains'])) $contains = $_GET['contains'];
 else $contains = "";
-
-// Intuition
-require_once __DIR__ . '/../vendor/autoload.php';
-$I18N = new Intuition( 'map-of-monuments' );
-$I18N->registerDomain( 'map-of-monuments', __DIR__ . '/../messages' );
-
 ?>
 <!DOCTYPE html>
 <html>
