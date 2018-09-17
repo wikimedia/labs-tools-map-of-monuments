@@ -12,12 +12,21 @@ import hashlib
 # Load configuration
 config = yaml.safe_load(open('../src/config.yaml'))
 
-cache = pymysql.connect(
-	database=config['DB_NAME'],
-	host='tools.db.svc.eqiad.wmflabs',
-	read_default_file=os.path.expanduser("~/replica.my.cnf"),
-	charset='utf8mb4',
-)
+if config.get('DB_USER') and config.get('DB_PASS'):
+	cache = pymysql.connect(
+		database=config['DB_NAME'],
+		host=config['DB_HOST'],
+		user=config['DB_USER'],
+		password=config['DB_PASS'],
+		charset='utf8mb4',
+	)
+else:
+	cache = pymysql.connect(
+		database=config['DB_NAME'],
+		host=config['DB_HOST'],
+		read_default_file=os.path.expanduser("~/replica.my.cnf"),
+		charset='utf8mb4',
+	)
 
 countries = open('countries.txt').read().splitlines()
 
