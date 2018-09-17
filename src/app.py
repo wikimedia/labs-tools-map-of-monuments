@@ -31,6 +31,14 @@ app.config.update(
     yaml.safe_load(open(os.path.join(__dir__, 'config.yaml'))))
 
 def connect():
+    if app.config.get('DB_USER') and app.config.get('DB_PASS'):
+        return pymysql.connect(
+            database=app.config['DB_NAME'],
+            host=app.config['DB_HOST'],
+            user=app.config['DB_USER'],
+            password=app.config['DB_PASS'],
+            charset='utf8mb4'
+        )
     return pymysql.connect(
         database=app.config['DB_NAME'],
         host=app.config['DB_HOST'],
