@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+          "Martin Urbanec"
+        ]
+    },
+    "title": "Map of Monuments",
+    "source-code": "Source code",
+    "search-startswith": "Find only cultural heritage starting with",
+    "search-contains": "Find only cultural heritage containing",
+    "search": "Search",
+    "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>"
+}

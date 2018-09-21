@@ -19,11 +19,10 @@ import os
 import yaml
 import pymysql
 import urllib
-from flask_babel import Babel
-from flask_babel import gettext, ngettext
+from flask_jsonlocale import Locales
 
 app = flask.Flask(__name__)
-babel = Babel(app)
+locales = Locales(app)
 
 # Load configuration from YAML file
 __dir__ = os.path.dirname(__file__)
@@ -45,10 +44,6 @@ def connect():
         read_default_file=os.path.expanduser("~/replica.my.cnf"),
         charset='utf8mb4'
     )
-
-@babel.localeselector
-def getlocale():
-	return request.accept_languages.best_match(['cs', 'en'])
 
 @app.before_request
 def force_https():
