@@ -1,0 +1,13 @@
+{
+    "@metadata": {
+        "authors": [
+          "Martin Urbanec"
+        ]
+    },
+    "title": "Name of this app",
+    "source-code": "Link in footer to source code",
+    "search-startswith": "Description of one of two search options",
+    "search-contains": "Description of one of two search options",
+    "search": "Search button",
+    "map-copyright": "Displayed as map data origin"
+}
