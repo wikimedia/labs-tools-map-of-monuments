@@ -5,9 +5,10 @@
         ]
     },
     "title": "Map of Monuments",
-    "source-code": "Source code",
+    "source-code": "source code",
     "search-startswith": "Find only cultural heritage starting with",
     "search-contains": "Find only cultural heritage containing",
     "search": "Search",
-    "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>"
+    "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "report-a-bug": "report a bug"
 }

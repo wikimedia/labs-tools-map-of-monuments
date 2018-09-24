@@ -21,7 +21,7 @@ import pymysql
 import urllib
 from flask_jsonlocale import Locales
 
-app = flask.Flask(__name__)
+app = flask.Flask(__name__, static_folder='../static')
 locales = Locales(app)
 
 # Load configuration from YAML file
@@ -96,4 +96,4 @@ def get_monuments():
 
 
 if __name__ == "__main__":
-        app.run(debug=True, threaded=True)
+    app.run(debug=True, threaded=True)
