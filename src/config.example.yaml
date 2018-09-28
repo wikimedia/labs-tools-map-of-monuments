@@ -1,0 +1,6 @@
+DB_NAME: s53844__heritage_p
+DB_HOST: 127.0.0.1
+DB_USER: root
+DB_PASS: password
+MESSAGES_DIR: ../messages
+STATIC_URL: /static/
