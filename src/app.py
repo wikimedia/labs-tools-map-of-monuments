@@ -80,11 +80,11 @@ def get_monuments():
 
     with conn.cursor() as cur:
         if startswith and contains:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like ? and page_title like ?', (startswith + '%', '%' + contains + '%'))
+            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
         elif startswith:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like ?', (startswith + '%', ))
+            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s', (startswith + '%', ))
         elif contains:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like ?', ('%' + contains + '%',))
+            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s', ('%' + contains + '%',))
         else:
             cur.execute('select lat, lon, page_title, lang from monuments where image is null')
         data = cur.fetchall()
