@@ -10,5 +10,6 @@
     "search-contains": "Find only cultural heritage containing",
     "search": "Search",
     "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
-    "report-a-bug": "report a bug"
+    "report-a-bug": "report a bug",
+    "introduction": "You don't know what to write for Wikipedia yet? You can use this Map of Monuments. Those monuments are just waiting on somebody to choose them and write an article on them. You can zoom to area that's interesting for you and you'll see monuments with no articles on Wikipedia. You can also search by monument's name, by just writing at least part of the monument's name. The map will redirect you to Visual Editor upon clicking on a monument's name."
 }

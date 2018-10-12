@@ -9,5 +9,6 @@
     "search-startswith": "Description of one of two search options",
     "search-contains": "Description of one of two search options",
     "search": "Search button",
-    "map-copyright": "Displayed as map data origin"
+    "map-copyright": "Displayed as map data origin",
+    "introduction": "This text is displayed right above the map as introduction of the tool"
 }

@@ -8,6 +8,10 @@
 	--secundary-background-color: #337a77;
 }
 
+.intro {
+	padding-bottom: 20px;
+}
+
 .navbar {
 	position: relative;
 	top: 0;
@@ -15,11 +19,23 @@
 	padding: 20px;
 	border: 1px solid transparent;
 	margin-bottom: 20px;
+	display: flex;
+	
+	ul {
+		display: flex;
+		list-style: none;
+		margin-top: 1px;
+
+		li {
+			padding: 0 10px;
+		}
+	}
 	
 	.navbar-brand {
 		color: var(--main-font-color);
 		font-size: 18px;
 		line-height: 20px;
+		font-weight: 560;
 	}
 
 	.navbar-logo {
@@ -30,7 +46,6 @@
 }
 
 a {
-	float:right;
 	position: relative;
 	text-decoration: none;
 	color: var(--main-font-color);
@@ -98,7 +113,6 @@ footer {
 	padding: 15px;
 
 	a {
-		float: none;
 		color: #337ab7;
 		position: static !important;
 	}

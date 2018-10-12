@@ -10,5 +10,6 @@
     "search-contains": "Hledat pouze kulturní památky obsahující",
     "search": "Hledat",
     "map-copyright": "Wikimedia maps beta | Mapová data &copy; <a href=\"http://openstreetmap.org/copyright\">Přispěvovatelé OpenStreetMap</a>",
-    "report-a-bug": "nahlásit chybu"
+    "report-a-bug": "nahlásit chybu",
+    "introduction": "Hledáte inspiraci, o čem psát na Wikipedii? Využijte naši mapu památek, které jen čekají na chvíli, kdy si je někdo vybere a popíše je. Přibližte si oblast, která vás zajímá, a uvidíte objekty, které ještě nemají na Wikipedii svůj článek. Můžete také hledat podle názvu, stačí napsat jméno nebo i jen začáteční písmena. Kliknutím na vybranou památku se pak dostanete rovnou do editace."
 }
