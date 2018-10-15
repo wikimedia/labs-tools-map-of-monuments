@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"A Chinese Wikipedian"
+		]
+	},
+	"title": "古迹地图",
+	"source-code": "源代码",
+	"search-startswith": "只有文化遗产才开始",
+	"search-contains": "只发现文化遗产",
+	"search": "搜索",
+	"report-a-bug": "报告漏洞"
+}

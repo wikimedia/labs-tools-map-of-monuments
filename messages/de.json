@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "Quellcode",
+	"search-startswith": "Nur Kulturerbe finden, das beginnt mit",
+	"search-contains": "Nur Kulturerbe finden, das enthält",
+	"search": "Suchen",
+	"map-copyright": "Wikimedia Maps Beta | Kartendaten &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap-Autoren</a>",
+	"report-a-bug": "Einen Fehler melden",
+	"introduction": "Du weißt noch nicht, was du für Wikipedia schreiben sollst? Du kannst diese Denkmalkarte verwenden. Diese Denkmäler warten nur darauf, dass sie jemand aussucht und einen Artikel über sie schreibt. Du kannst den für dich interessanten Bereich vergrößern und du siehst Denkmäler ohne Wikipedia-Artikel. Du kannst auch nach dem Namen des Denkmals suchen, indem du mindestens einen Teil des Namens eingibst. Die Karte leitet dich auf den visuellen Editor weiter, wenn du auf den Namen des Denkmals klickst."
+}

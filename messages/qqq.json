@@ -1,14 +1,15 @@
 {
-    "@metadata": {
-        "authors": [
-          "Martin Urbanec"
-        ]
-    },
-    "title": "Name of this app",
-    "source-code": "Link in footer to source code",
-    "search-startswith": "Description of one of two search options",
-    "search-contains": "Description of one of two search options",
-    "search": "Search button",
-    "map-copyright": "Displayed as map data origin",
-    "introduction": "This text is displayed right above the map as introduction of the tool"
+	"@metadata": {
+		"authors": [
+			"Martin Urbanec",
+			"Robby"
+		]
+	},
+	"title": "Name of this app",
+	"source-code": "Link in footer to source code",
+	"search-startswith": "Description of one of two search options",
+	"search-contains": "Description of one of two search options",
+	"search": "Search button\n{{Identical|Search}}",
+	"map-copyright": "Displayed as map data origin",
+	"introduction": "This text is displayed right above the map as introduction of the tool"
 }

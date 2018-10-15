@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"title": "Mapa de monumentos",
+	"source-code": "código-fonte",
+	"search-startswith": "Procurar só património cultural começado por",
+	"search-contains": "Procurar só património cultural que contenha",
+	"search": "Procurar",
+	"map-copyright": "Mapas Wikimedia beta | Dados cartográficos &copy; <a href=\"http://openstreetmap.org/copyright\">Contribuidores do OpenStreetMap</a>",
+	"report-a-bug": "reportar um defeito",
+	"introduction": "Ainda não sabe o que escrever para a Wikipédia? Pode usar este Mapa de Monumentos. Estes monumentos aguardam que alguém os escolha e escreva um artigo sobre eles. Você pode ampliar a área que é interessante para si e verá monumentos sem artigos na Wikipédia. Também pode pesquisar o monumento, escrevendo pelo menos parte do nome. O mapa irá redirecioná-lo para o Editor Visual ao clicar no nome de um monumento."
+}

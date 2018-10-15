@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"title": "Anıtlar Haritası",
+	"source-code": "kaynak kodu",
+	"search-startswith": "Sadece şununla başlayan kültürel mirası bulun:",
+	"search-contains": "Sadece şunları içeren kültürel mirası bulun:",
+	"search": "Ara",
+	"map-copyright": "Wikimedia haritalar beta | Harita veri &kopyala; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap iştirakçileri</a>",
+	"report-a-bug": "hata bildir"
+}

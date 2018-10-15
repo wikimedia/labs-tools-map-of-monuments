@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiPhoenix"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "källkod",
+	"search-startswith": "Hitta endast kulturarv som börjar med",
+	"search-contains": "Hitta endast kulturarv som innehåller",
+	"search": "Sök",
+	"map-copyright": "Wikimedia maps beta | Kartdata &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMaps bidragsgivare</a>",
+	"report-a-bug": "rapportera en bugg"
+}
