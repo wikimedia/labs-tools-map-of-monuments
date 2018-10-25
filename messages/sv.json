@@ -10,5 +10,6 @@
 	"search-contains": "Hitta endast kulturarv som innehåller",
 	"search": "Sök",
 	"map-copyright": "Wikimedia maps beta | Kartdata &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMaps bidragsgivare</a>",
-	"report-a-bug": "rapportera en bugg"
+	"report-a-bug": "rapportera en bugg",
+	"introduction": "Vet du ännu inte vad du ska skriva på Wikipedia? Du kan använda denna monumentkarta. Dessa monument väntar bara på att någon ska välja ut och skriva en artikel om dem. Du kan zooma in på ett område som intresserar dig så kommer du se monument utan en artikel på Wikipedia. Du kan även söka efter monumentnamn, bara genom att skriva en del av monumentets namn. Kartan kommer omdirigera dig till VisualEditor när du klickar på ett monumentnamn."
 }

@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Martin Urbanec"
+			"Martin Urbanec",
+			"Wesalius"
 		]
 	},
 	"title": "Mapa památek",
 	"source-code": "zdrojový kód",
-	"search-startswith": "Hledat pouze kulturní památky začínající",
+	"search-startswith": "Hledat pouze kulturní památky začínající na",
 	"search-contains": "Hledat pouze kulturní památky obsahující",
 	"search": "Hledat",
 	"map-copyright": "Wikimedia maps beta | Mapová data &copy; <a href=\"http://openstreetmap.org/copyright\">Přispěvovatelé OpenStreetMap</a>",

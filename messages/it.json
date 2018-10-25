@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"SilviaF"
 		]
 	},
+	"title": "Mappa dei monumenti",
 	"source-code": "codice sorgente",
 	"search": "Cerca",
-	"report-a-bug": "segnala un errore"
+	"report-a-bug": "segnala un errore",
+	"introduction": "Non sai ancora cosa scrivere su Wikipedia? Puoi usare questa mappa dei monumenti. Questi monumenti stanno aspettando che qualcuno li scelga e scriva una voce su di loro. Puoi ingrandire l'area che ti interessa e vedrai i monumenti che non hanno ancora una voce su Wikipedia. Puoi anche fare la ricerca per nome dei monumenti, scrivendo almeno una parte del nome. La mappa ti reindirizzerà all'editor visuale dopo aver cliccato sul nome del monumento."
 }
