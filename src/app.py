@@ -65,34 +65,20 @@ def index():
 @app.route('/get_monuments')
 def get_monuments():
     conn = connect()
-    startswith = request.args.get('startswith', None)
-    contains = request.args.get('contains', None)
+    startswith = request.args.get('startswith', '')
+    contains = request.args.get('contains', '')
     javascript = "var addressPoints = [\n"
-    with conn.cursor() as cur:
-        if startswith and contains:
-            cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title, lang from monuments where image is not null and page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
-        elif startswith:
-            cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title, lang from monuments where image is not null and page_title like %s', (startswith + '%', ))
-        elif contains:
-            cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title, lang from monuments where image is not null and page_title like %s', ('%' + contains + '%',))
-        else:
-            cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title, lang from monuments where image is not null')
-        data = cur.fetchall()
-    for row in data:
-        javascript += '\t[%s, %s, \'<img src="%s" /><br /><a target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>\', \'%s\'],\n' % (row[0], row[1], row[2], row[4], urllib.parse.quote(row[3]), row[3], row[3])
 
     with conn.cursor() as cur:
-        if startswith and contains:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
-        elif startswith:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s', (startswith + '%', ))
-        elif contains:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null and page_title like %s', ('%' + contains + '%',))
-        else:
-            cur.execute('select lat, lon, page_title, lang from monuments where image is null')
+        cur.execute('select lat, lon, replace(image_url, "\'", "\\\\\'"), page_title, lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
         data = cur.fetchall()
+
     for row in data:
-        javascript += '\t[%s, %s, \'<a target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>\', \'%s\'],\n' % (row[0], row[1], row[3], urllib.parse.quote(row[2]), row[2], row[2])
+        if row[2]:
+            image = '<img src="%s" /><br />' % row[2]
+        else:
+            image = ''
+        javascript += '\t[%s, %s, \'%s<a target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>\', \'%s\'],\n' % (row[0], row[1], image, row[4], urllib.parse.quote(row[3]), row[3], row[3])
 
     javascript += '];'
     return Response(javascript, mimetype="text/javascript")
