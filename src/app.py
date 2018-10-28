@@ -53,10 +53,13 @@ def force_https():
             code=301
         )
 
-@app.route('/')
-def index():
+@app.before_request
+def check_maintenance():
     if app.config.get('MAINTENANCE', False):
         return render_template('maintenance.html')
+
+@app.route('/')
+def index():
     return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''))
 
 @app.route('/get_monuments')
