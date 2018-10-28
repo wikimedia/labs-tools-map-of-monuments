@@ -11,5 +11,9 @@
     "search": "Search",
     "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
     "report-a-bug": "report a bug",
-    "introduction": "You don't know what to write for Wikipedia yet? You can use this Map of Monuments. Those monuments are just waiting on somebody to choose them and write an article on them. You can zoom to area that's interesting for you and you'll see monuments with no articles on Wikipedia. You can also search by monument's name, by just writing at least part of the monument's name. The map will redirect you to Visual Editor upon clicking on a monument's name."
+    "introduction": "You don't know what to write for Wikipedia yet? You can use this Map of Monuments. Those monuments are just waiting on somebody to choose them and write an article on them. You can zoom to area that's interesting for you and you'll see monuments with no articles on Wikipedia. You can also search by monument's name, by just writing at least part of the monument's name. The map will redirect you to Visual Editor upon clicking on a monument's name.",
+    "list-of-monuments": "List of monuments",
+    "switch-to-list": "switch to list of monuments",
+    "switch-to-map": "switch to map of monuments",
+    "choose-project": "Choose project, we will show monuments missing in project chosen by you"
 }

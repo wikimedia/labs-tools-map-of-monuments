@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>{{ locale['list-of-monuments'] }}</h1>
+    <div class="three-cols">
+        <ul>
+            {% for monument in monuments %}
+            <li><a class="redlink" href="https://{{monument.lang}}.wikipedia.org/wiki/{{monument.url_encoded_title}}">{{monument.title}}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock content %}

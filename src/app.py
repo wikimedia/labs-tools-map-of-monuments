@@ -83,6 +83,32 @@ def get_monuments():
     javascript += '];'
     return Response(javascript, mimetype="text/javascript")
 
+@app.route('/list-of-monuments')
+def list_of_monuments():
+    conn = connect()
+    with conn.cursor() as cur:
+        cur.execute('select distinct lang from monuments')
+        langs = cur.fetchall()
+    return render_template('langs.html', langs=langs)
+
+@app.route('/list-of-monuments/<lang>')
+def list_of_monuments_lang(lang):
+    conn = connect()
+    startswith = request.args.get('startswith', '')
+    contains = request.args.get('contains', '')
+
+    with conn.cursor() as cur:
+        cur.execute('select page_title, lang from monuments where page_title like %s and page_title like %s and lang=%s', (startswith + '%', '%' + contains + '%', lang))
+        data = cur.fetchall()
+    monuments = []
+    for row in data:
+        monuments.append({
+            'lang': row[1],
+            'url_encoded_title': urllib.parse.quote(row[0]),
+            'title': row[0]
+        })
+    return render_template('monuments.html', monuments=monuments)
+
 
 if __name__ == "__main__":
     app.run(debug=True, threaded=True)

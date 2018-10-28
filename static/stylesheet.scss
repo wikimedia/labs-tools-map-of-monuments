@@ -48,7 +48,6 @@
 a {
 	position: relative;
 	text-decoration: none;
-	color: var(--main-font-color);
 }
 
 form {
@@ -116,4 +115,18 @@ footer {
 		color: #337ab7;
 		position: static !important;
 	}
+}
+
+.redlink {
+	color: #a55858;
+}
+
+.three-cols {
+	word-wrap: break-word;
+    column-gap: 2em;
+    -moz-column-gap: 2em;
+    -webkit-column-gap: 2em;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
 }

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <h1>{{ locale['list-of-monuments'] }}</h1>
+    <p class="intro">{{ locale['choose-project'] }}</p>
+    <ul>
+        {% for lang in langs %}
+        <li><a href="{{ url_for('list_of_monuments_lang', lang=lang.0) }}">{{lang.0}}.wikipedia.org</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock content %}
