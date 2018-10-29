@@ -5,7 +5,7 @@
     <div class="three-cols">
         <ul>
             {% for monument in monuments %}
-            <li><a class="redlink" href="https://{{monument.lang}}.wikipedia.org/wiki/{{monument.url_encoded_title}}?veaction=edit">{{monument.title}}</a></li>
+            <li><a class="redlink" href="https://{{monument.lang}}.wikipedia.org/wiki/{{monument.url_encoded_title}}?veaction=edit{% if campaign %}&summary={{ quote(get_message('campaign-new-article-summary', language=monument.lang)) }} %23{{ quote(campaign) }}{% endif %}">{{monument.title}}</a></li>
             {% endfor %}
         </ul>
     </div>

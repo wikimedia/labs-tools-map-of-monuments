@@ -62,6 +62,12 @@ def check_maintenance():
 def urlencode_into_template():
     app.jinja_env.globals.update(quote=urllib.parse.quote)
 
+@app.context_processor
+def add_campaign():
+    return {
+        "campaign": request.args.get('campaign')
+    }
+
 @app.route('/')
 def index():
     return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''))

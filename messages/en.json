@@ -15,5 +15,6 @@
     "list-of-monuments": "List of monuments",
     "switch-to-list": "switch to list of monuments",
     "switch-to-map": "switch to map of monuments",
-    "choose-project": "Choose project, we will show monuments missing in project chosen by you"
+    "choose-project": "Choose project, we will show monuments missing in project chosen by you",
+    "campaign-new-article-summary": "New article for"
 }
