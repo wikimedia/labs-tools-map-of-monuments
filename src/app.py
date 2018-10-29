@@ -58,6 +58,10 @@ def check_maintenance():
     if app.config.get('MAINTENANCE', False):
         return render_template('maintenance.html')
 
+@app.before_request
+def urlencode_into_template():
+    app.jinja_env.globals.update(quote=urllib.parse.quote)
+
 @app.route('/')
 def index():
     return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''))
