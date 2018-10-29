@@ -10,5 +10,6 @@
 	"search-contains": "Sadece şunları içeren kültürel mirası bulun:",
 	"search": "Ara",
 	"map-copyright": "Wikimedia haritalar beta | Harita veri &kopyala; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap iştirakçileri</a>",
-	"report-a-bug": "hata bildir"
+	"report-a-bug": "hata bildir",
+	"introduction": "Vikipedi için ne yazacağını bilmiyor musun? Bu Anıtlar Haritası'nı kullanabilirsin. Bu anıtlar sadece birilerinin onları seçmesini ve haklarında bir madde yazmasını bekliyor. İlgilendiğiniz yerleri harita yakınlaştırabilir ve Sizin için ilginç olan bölgeye yakınlaştırabilir ve Vikipedi'de maddesi olmayan anıtları görebilirsiniz. Anıt adının en azından bir kısmını yazarak anıtı ismine göre de aratabilirsiniz. Harita, bir anıtın adını tıkladığınızda sizi Görsel Editör'e yönlendirecektir."
 }
