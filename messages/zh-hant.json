@@ -11,5 +11,10 @@
 	"search": "搜尋",
 	"map-copyright": "維基媒體地圖測試版 | 地圖資料 &copy; <a href=\"http://openstreetmap.org/copyright\">開放街圖貢獻者</a>",
 	"report-a-bug": "回報程式錯誤",
-	"introduction": "還不曉得要為維基百科寫些什麼嗎？您可以使用此 Map of Monuments 工具。這些遺跡正等待其他人挑選它們，編寫關於它們的條目。您可以縮放您感興趣的區域，並在維基百科上不以條目來查看遺跡。您也可以透過遺跡名稱、或遺跡名稱部份字詞來做搜尋。地圖將替您重新導向至在遺跡名稱上方點擊的視覺化編輯器。"
+	"introduction": "還不曉得要為維基百科寫些什麼嗎？您可以使用此 Map of Monuments 工具。這些遺跡正等待其他人挑選它們，編寫關於它們的條目。您可以縮放您感興趣的區域，並在維基百科上不以條目來查看遺跡。您也可以透過遺跡名稱、或遺跡名稱部份字詞來做搜尋。地圖將替您重新導向至在遺跡名稱上方點擊的視覺化編輯器。",
+	"list-of-monuments": "遺跡清單",
+	"switch-to-list": "切換至遺跡清單",
+	"switch-to-map": "切換至遺跡地圖",
+	"choose-project": "挑選專案，我們將會顯示出由您所挑選專案裡缺少的遺跡",
+	"campaign-new-article-summary": "新條目有關"
 }

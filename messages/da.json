@@ -7,5 +7,10 @@
 	"title": "Kort over monumenter",
 	"source-code": "kildekode",
 	"search": "Søg",
-	"report-a-bug": "rapportér en fejl"
+	"report-a-bug": "rapportér en fejl",
+	"list-of-monuments": "Liste over monumenter",
+	"switch-to-list": "skift til liste over monumenter",
+	"switch-to-map": "skift til kort over monumenter",
+	"choose-project": "Vælg projekt, vi vil vise monumenter der mangler i det projekt du har valgt",
+	"campaign-new-article-summary": "Ny artikel for"
 }

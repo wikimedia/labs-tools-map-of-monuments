@@ -14,8 +14,7 @@
 	"introduction": "This text is displayed right above the map as introduction of the tool",
 	"list-of-monuments": "Headline of /list-of-monuments",
 	"switch-to-list": "Button that will switch you to list view of monuments",
-    "switch-to-map": "Button that will switch you to map view of monuments",
+	"switch-to-map": "Button that will switch you to map view of monuments",
 	"choose-project": "Introduction shown in the \"Choose project\" dialog shown by switch to list button",
 	"campaign-new-article-summary": "Prefilled summary when campaign query parameter is passed.\nUsed to track articles created because of a campaign somehow."
-
 }

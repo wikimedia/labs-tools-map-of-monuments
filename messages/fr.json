@@ -12,5 +12,10 @@
 	"search": "Rechercher",
 	"map-copyright": "carte en bêta de Wikimédia | Données de carte &copy; <a href=\"http://openstreetmap.org/copyright\">contributeurs de OpenStreetMap</a>",
 	"report-a-bug": "signaler un bogue",
-	"introduction": "Vous ne savez pas encore quoi écrire pour Wikipedia ? Vous pouvez utiliser cette carte des monuments. Ces monuments attendent juste que quelqu'un les choisisse et rédige un article à leur sujet. Vous pouvez zoomer sur une zone qui vous intéresse et vous verrez des monuments sans articles sur Wikipedia. Vous pouvez également effectuer une recherche par nom de monument, en écrivant simplement au moins une partie du nom du monument. La carte vous redirigera vers l'Editeur Visuel en cliquant sur le nom d'un monument."
+	"introduction": "Vous ne savez pas encore quoi écrire pour Wikipedia ? Vous pouvez utiliser cette carte des monuments. Ces monuments attendent juste que quelqu'un les choisisse et rédige un article à leur sujet. Vous pouvez zoomer sur une zone qui vous intéresse et vous verrez des monuments sans articles sur Wikipedia. Vous pouvez également effectuer une recherche par nom de monument, en écrivant simplement au moins une partie du nom du monument. La carte vous redirigera vers l'Editeur Visuel en cliquant sur le nom d'un monument.",
+	"list-of-monuments": "Liste des monuments",
+	"switch-to-list": "bouton pour lister les monuments",
+	"switch-to-map": "bouton de la carte des monuments",
+	"choose-project": "Selectionner un projet, nous vous afficherons les monuments manquants dans le projet que vous avez choisi",
+	"campaign-new-article-summary": "Nouvel article pour"
 }

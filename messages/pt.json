@@ -11,5 +11,10 @@
 	"search": "Procurar",
 	"map-copyright": "Mapas Wikimedia beta | Dados cartográficos &copy; <a href=\"http://openstreetmap.org/copyright\">Contribuidores do OpenStreetMap</a>",
 	"report-a-bug": "reportar um defeito",
-	"introduction": "Ainda não sabe o que escrever para a Wikipédia? Pode usar este Mapa de Monumentos. Estes monumentos aguardam que alguém os escolha e escreva um artigo sobre eles. Você pode ampliar a área que é interessante para si e verá monumentos sem artigos na Wikipédia. Também pode pesquisar o monumento, escrevendo pelo menos parte do nome. O mapa irá redirecioná-lo para o Editor Visual ao clicar no nome de um monumento."
+	"introduction": "Ainda não sabe o que escrever para a Wikipédia? Pode usar este Mapa de Monumentos. Estes monumentos aguardam que alguém os escolha e escreva um artigo sobre eles. Você pode ampliar a área que é interessante para si e verá monumentos sem artigos na Wikipédia. Também pode pesquisar o monumento, escrevendo pelo menos parte do nome. O mapa irá redirecioná-lo para o Editor Visual ao clicar no nome de um monumento.",
+	"list-of-monuments": "Lista de monumentos",
+	"switch-to-list": "mudar para a lista de monumentos",
+	"switch-to-map": "mudar para o mapa de monumentos",
+	"choose-project": "Escolha um projeto, mostraremos os monumentos em falta nesse projeto",
+	"campaign-new-article-summary": "Artigo novo para"
 }
