@@ -2,17 +2,17 @@
 {% block content %}
 <div class="container">
     <form>
-        <p class="intro">{{ locale['introduction'] }}</p>
+        <p class="intro">{{ _("introduction") }}</p>
         <div class="row">
             <div class="col-6">
-                <label for="startswith">{{ locale["search-startswith"] }}: </label><input type="text" id="startswith" name="startswith" value="{{ startswith }}"><br />
+                <label for="startswith">{{ _("search-startswith") }}: </label><input type="text" id="startswith" name="startswith" value="{{ startswith }}"><br />
             </div>
             <div class="col-6">
-                <label for="contains">{{ locale["search-contains"] }}: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
+                <label for="contains">{{ _("search-contains") }}: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
             </div>
         </div>
 
-        <input class="btn btn-primary btn-block" type="submit" value="{{ locale['search'] }}" />
+        <input class="btn btn-primary btn-block" type="submit" value="{{ _("search") }}" />
     </form>
     <div id="map"></div>
 
@@ -31,7 +31,7 @@
     L.tileLayer(server + style + '/{z}/{x}/{y}.png', {
                 maxZoom: 18,
                 id: 'wikipedia-map-01',
-                attribution: '{{ locale["map-copyright"]|safe }}'
+                attribution: '{{ _("map-copyright")|safe }}'
     }).addTo(map);
     
     var markers = L.markerClusterGroup();
