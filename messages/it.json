@@ -9,9 +9,10 @@
 	"source-code": "codice sorgente",
 	"search": "Cerca",
 	"report-a-bug": "segnala un errore",
-	"introduction": "Non sai ancora cosa scrivere su Wikipedia? Puoi usare questa mappa dei monumenti. Questi monumenti stanno aspettando che qualcuno li scelga e scriva una voce su di loro. Puoi ingrandire l'area che ti interessa e vedrai i monumenti che non hanno ancora una voce su Wikipedia. Puoi anche fare la ricerca per nome dei monumenti, scrivendo almeno una parte del nome. La mappa ti reindirizzerà all'editor visuale dopo aver cliccato sul nome del monumento.",
+	"introduction": "Non sai ancora cosa scrivere su Wikipedia? Prova la nostra mappa dei monumenti. Contiene migliaia di monumenti che stanno aspettando qualcuno che li scelga e scriva una voce su di loro. Puoi ingrandire l'area che ti interessa e vedrai i monumenti che non hanno ancora una voce su Wikipedia. O puoi anche fare la ricerca utilizzando entrambi i campi sotto. Cliccando sull'etichetta di qualsiasi monumento sarai automaticamente reindirizzato all'editor visuale.",
 	"list-of-monuments": "Elenco dei monumenti",
 	"switch-to-list": "passa all'elenco dei monumenti",
 	"switch-to-map": "passa alla mappa dei monumenti",
+	"choose-project": "Scegli un progetto per mostrare i monumenti mancanti in quel progetto",
 	"campaign-new-article-summary": "Nuova voce per"
 }

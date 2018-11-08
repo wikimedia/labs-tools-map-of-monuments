@@ -6,10 +6,15 @@
 	},
 	"title": "Mappe de le Monuminde",
 	"source-code": "codece sorgende",
-	"search-startswith": "Iacchie sulamende le patrimonie culturale ca accumenzane cu",
-	"search-contains": "Iacchie sulamende le patrimonie culturale ca tènene",
+	"search-startswith": "Iacchie le patrimonie culturale ca accumenzane cu",
+	"search-contains": "Iacchie le patrimonie culturale ca tènene",
 	"search": "Cirche",
 	"map-copyright": "Uicchimedie mappe beta | Mappe date &copy; <a href=\"http://openstreetmap.org/copyright\">Condrebbuture de OpenStreetMap</a>",
 	"report-a-bug": "signale 'n'errore",
-	"introduction": "Non giù se ce cazze a scrivere sus a Uicchipèdie? Puè ausà sta Mappe de le Monuminde. Ste monuminde stonne aspettane ca quacchedune le scacchie e scrive 'na vôsce sus a lore. Puè allarià l'arèe ca te 'nderesse e puè 'ndrucà le monuminde ca non g'onne angore 'nu titole sus a Uicchipèdie. Puè pure fà 'na recerche pe nome de le monumide, screvenne ninde ninde 'nu stuèzze d'u nome. 'A mappe pò te manne a Visual Edito apprisse ca è cazzate sus a 'u nome d'u monumende."
+	"introduction": "Non ge se ce cazze a scrivere sus a Uicchipèdie? Pruéve le Mappe de le Monuminde. Stonne migliaie de monuminde ca stonne aspettane ca quacchedune le scacchie e scrive 'na vôsce sus a lore. Puè allarià 'n'arèe ca te 'nderesse e puè 'ndrucà tutte le monuminde ca non g'onne angore 'nu titole sus a Uicchipèdie. Puè pure cercà pe monuminde, ausanne le cambe ca stonne sotte. Cazzanne sus a ogne nome de 'nu monumende avine mannate direttamende sus a 'u Visual Editor.",
+	"list-of-monuments": "Elenghe de le monuminde",
+	"switch-to-list": "passe a l'elenghe de le monuminde",
+	"switch-to-map": "passe a 'a mappe de le monuminde",
+	"choose-project": "Scacchie 'nu proggette da fà 'ndrucà le monuminde ca mangane jndr'à quidde proggette",
+	"campaign-new-article-summary": "Vôscia nove pe"
 }

@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Banjo"
+			"Banjo",
+			"Elisardojm"
 		]
 	},
+	"title": "Mapa de monumentos",
 	"source-code": "código fonte",
+	"search-startswith": "Atopar patrimonio cultural que comeza con",
+	"search-contains": "Atopar patrimonio cultural que contén",
+	"search": "Procurar",
 	"report-a-bug": "informar dun erro"
 }
