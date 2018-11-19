@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Laura Ospina"
+		]
+	},
+	"title": "Mapa de Monumentos es una herramienta que le permite ver monumentos que no tienen un artículo en Wikipedia.",
+	"source-code": "Código fuente",
+	"search-startswith": "Encontrar el patrimonio cultural que empieza con",
+	"search-contains": "Encontrar patrimonio cultural que contenga",
+	"search": "Búsqueda",
+	"report-a-bug": "Reportar un error",
+	"introduction": "¿Aún no sabes qué escribir para Wikipedia? Pruebe nuestro Mapa de Monumentos. Contiene miles de monumentos en espera de que alguien escriba un artículo sobre ellos. Puedes acercarte a un área que te interese para ver todos los monumentos sin artículos de Wikipedia. O bien, busca por el nombre del monumento usando cualquiera de los campos de abajo. Al hacer clic en la etiqueta de cualquier monumento se te redirigirá automáticamente al Editor visual.",
+	"list-of-monuments": "Lista de monumentos",
+	"switch-to-list": "Cambiar a lista de monumentos",
+	"switch-to-map": "Cambiar a mapa de monumentos",
+	"choose-project": "Seleccionar un proyecto para mostrar monumentos que faltan en ese proyecto",
+	"campaign-new-article-summary": "Artículo nuevo para"
+}
