@@ -6,6 +6,8 @@
 	},
 	"title": "Kort over monumenter",
 	"source-code": "kildekode",
+	"search-startswith": "Find kultur arv som begynder med",
+	"search-contains": "Find kultur arv som indeholder",
 	"search": "Søg",
 	"report-a-bug": "rapportér en fejl",
 	"list-of-monuments": "Liste over monumenter",
