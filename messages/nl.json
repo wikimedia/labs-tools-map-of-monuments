@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Optilete"
 		]
 	},
 	"source-code": "broncode",
-	"search-startswith": "Zoek alleen naar cultureel erfgoed dat begint met",
-	"search-contains": "Zoek alleen naar cultureel erfgoed dat bevat",
+	"search-startswith": "Zoek naar cultureel erfgoed dat begint met",
+	"search-contains": "Zoek naar cultureel erfgoed dat bevat",
 	"search": "Zoeken",
 	"report-a-bug": "Probleem melden"
 }
