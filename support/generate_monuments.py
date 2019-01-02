@@ -10,7 +10,8 @@ import requests
 import hashlib
 
 # Load configuration
-config = yaml.safe_load(open('../src/config.yaml'))
+__dir__ = os.path.dirname(__file__)
+config = yaml.safe_load(open(os.path.join(__dir__, '..', 'src', 'config.yaml')))
 
 if config.get('DB_USER') and config.get('DB_PASS'):
     cache = pymysql.connect(
@@ -28,7 +29,7 @@ else:
         charset='utf8mb4',
     )
 
-countries = open('countries.txt').read().splitlines()
+countries = open(os.path.join(__dir__, 'countries.txt')).read().splitlines()
 
 with cache.cursor() as cur:
     cur.execute('TRUNCATE TABLE monuments;')
@@ -42,7 +43,9 @@ def process_url(payload):
         if monument['monument_article'] != '' and monument['lat'] is not None and monument['lon'] is not None:
             wiki = toolforge.connect('%swiki' % monument['lang'])
             with wiki.cursor() as cur:
-                cur.execute('SELECT page_id FROM page WHERE page_namespace=0 AND page_title=%s', monument['monument_article'].replace(' ', '_'))
+                monument_article = monument['monument_article'].replace(' ', '_')
+                monument_article = monument_article[0].upper() + monument_article[1:]
+                cur.execute('SELECT page_id FROM page WHERE page_namespace=0 AND page_title=%s', monument_article)
                 if len(cur.fetchall()) == 0:
                     image = None
                     image_url = None
@@ -61,6 +64,7 @@ def process_url(payload):
                             monument['country'],
                             monument['lang'],
                         ))
+                    cache.commit()
             wiki.close()
     cache.commit()
     if data.get('continue', {}).get('srcontinue'):
