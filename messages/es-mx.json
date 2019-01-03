@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Laura Ospina"
+		]
+	},
+	"title": "Mapa de monumentos",
+	"source-code": "Código fuente",
+	"search-startswith": "Encuentra el patrimonio cultural que empiece por",
+	"search-contains": "Encuentra el patrimonio cultural que contenga",
+	"search": "Buscar",
+	"list-of-monuments": "Lista de monumentos",
+	"switch-to-list": "Cambiar a lista de monumentos",
+	"switch-to-map": "Cambiar a mapa de monumentos",
+	"choose-project": "Seleccionar un proyecto para mostrar los monumentos que faltan en ese proyecto",
+	"campaign-new-article-summary": "Artículo nuevo de"
+}
