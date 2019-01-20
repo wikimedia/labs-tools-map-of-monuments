@@ -88,7 +88,7 @@ def get_monuments():
             image = '<img src="%s" /><br />' % row[2]
         else:
             image = ''
-        javascript += '\t[%s, %s, `%s<a target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>`, `%s`],\n' % (row[0], row[1], image, row[4], urllib.parse.quote(row[3]), row[3], row[3])
+        javascript += '\t[%s, %s, `%s<a class="redlink" target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>`, `%s`],\n' % (row[0], row[1], image, row[4], urllib.parse.quote(row[3]), row[3], row[3])
 
     javascript += '];'
     return Response(javascript, mimetype="text/javascript")
