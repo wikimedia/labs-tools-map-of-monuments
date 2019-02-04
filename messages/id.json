@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"J Nia30"
+		]
+	},
+	"title": "Peta Monumen",
+	"source-code": "kode sumber",
+	"search-startswith": "Temukan kebudayaan yang di pusakakan di mulai dengan",
+	"search-contains": "Temukan kebudayaan yang di pusakakan yang memuat",
+	"search": "Cari",
+	"report-a-bug": "laporkan kesalahan",
+	"list-of-monuments": "Daftar monumen",
+	"switch-to-list": "ganti ke daftar monumen",
+	"switch-to-map": "ganti ke peta monumen",
+	"choose-project": "Pilih proyek untuk menampilkan monumen yang hilang pada proyek itu",
+	"campaign-new-article-summary": "Artikel baru untuk"
+}
