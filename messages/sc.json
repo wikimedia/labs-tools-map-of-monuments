@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"L2212"
+		]
+	},
+	"title": "Mapa de sos monumentos",
+	"source-code": "còdighe mitza",
+	"search-startswith": "Agata su patrimòniu culturale chi incumintzat cun",
+	"search-contains": "Agata su patrimòniu culturale chi cuntenet",
+	"search": "Chirca",
+	"map-copyright": "Mapas de Wikimedia in beta | Datos de sa mapa &copy; <a href=\"http://openstreetmap.org/copyright\">Contribuidores de OpenStreetMap</a>",
+	"report-a-bug": "sinnala un'errore",
+	"introduction": "No ischis galu ite iscrìere in Wikipedia? Proa sa mapa nostra de sos monumentos. Cuntenet mìgias de monumentos chi sunt petzi isetende calicunu chi los issèberet e chi iscriat una boghe a pitzu de issos. Podes ismanniare s'àrea chi t'interessat e as a bìdere sos monumentos chi non tenent galu un'artìculu in Wikipedia. O podes fintzas fàghere sa chirca impreende sos campos inoghe in suta. Incarchende in s'eticheta de cale si siat monumentu as a èssere torradu a indiritzare in manera automàtica a s'editore visuale.",
+	"list-of-monuments": "Lista de sos monumentos",
+	"switch-to-list": "cola a sa lista de sos monumentos",
+	"switch-to-map": "cola a sa mapa de sos monumentos",
+	"choose-project": "Issèbera unu progetu pro ammustrare sos monumentos chi mancant in cussu progetu",
+	"campaign-new-article-summary": "Artìculu nou pro"
+}
