@@ -41,7 +41,7 @@ def process_url(payload):
     monuments = data['monuments']
     for monument in monuments:
         if monument['monument_article'] != '' and monument['lat'] is not None and monument['lon'] is not None:
-            wiki = toolforge.connect('%swiki' % monument['lang'])
+            wiki = toolforge.connect('%swiki' % monument['lang'], cluster='analytics')
             with wiki.cursor() as cur:
                 monument_article = monument['monument_article'].replace(' ', '_')
                 monument_article = monument_article[0].upper() + monument_article[1:]
