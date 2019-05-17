@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"title": "Mapo de Monumentoj",
+	"source-code": "fontkodo",
+	"search-startswith": "Trovi kulturan heredaĵon kies nomo komencas per",
+	"search-contains": "Trovi kulturan heredaĵon kies nomo enhavas",
+	"search": "Serĉi",
+	"map-copyright": "Vikimediaj mapoj, beta-versio | Mapa dateno &copy; <a href=\"http://openstreetmap.org/copyright\">kontribuintoj al OpenStreetMap</a>",
+	"report-a-bug": "raporti cimon",
+	"introduction": "Ankoraŭ ne scias kion verki por Vikipedio? Provu nian Mapon de Monumentoj. Ĝi enhavas milojn da monumentoj nur atendantaj iun por verki artikolojn pri ili. Vi povas zomi al areo interesanta vin por vidi ĉiujn da tieaj monumentoj sen Vikipediaj artikoloj. Aŭ, serĉi per monumenta nomo, per ajno el la du kampoj ĉi-subaj. Alklaki etikedon de ajna monumento aŭtomate redirektos vin al la Vida Redaktilo.",
+	"list-of-monuments": "Listo de monumentoj",
+	"switch-to-list": "ŝalti liston de monumentoj",
+	"switch-to-map": "ŝalti mapon de monumentoj",
+	"choose-project": "Elekti projekton por prezenti mankantajn monumentojn en tiu projekto",
+	"campaign-new-article-summary": "Nova artikolo pri"
+}
