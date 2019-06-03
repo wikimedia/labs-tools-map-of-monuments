@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"MSClaudiu"
+		]
+	},
+	"title": "Harta Monumentelor",
+	"source-code": "codul sursă",
+	"search-startswith": "Găsiți patrimoniul cultural începând cu",
+	"search-contains": "Găsiți patrimoniul cultural care conține",
+	"search": "Caută",
+	"map-copyright": "Wikimedia hărți beta | Date despre hărți &copie; <a href=\"http://openstreetmap.org/copyright\">contribuitori OpenStreetMap</a>",
+	"report-a-bug": "raportare eroare",
+	"introduction": "Nu știu încă ce să scriu pentru Wikipedia? Încercați Harta noastră a Monumentelor. Conține mii de monumente care așteaptă pe cineva să scrie un articol despre ele. Puteți să vă apropiați de o zonă care vă interesează să vedeți toate monumentele de acolo, fără articole Wikipedia. Sau, căutați după numele monumentului utilizând oricare dintre câmpurile de mai jos. Dacă faceți clic pe orice etichetă a monumentului, va fi redirecționată automat la Editorul vizual.",
+	"list-of-monuments": "Lista monumentelor",
+	"switch-to-list": "schimbă la lista monumentelor",
+	"switch-to-map": "schimbă la harta monumentelor",
+	"choose-project": "\nAlegeți un proiect pentru a afișa monumentele care lipsesc în proiectul respectiv",
+	"campaign-new-article-summary": "Articol nou pentru"
+}
