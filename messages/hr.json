@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hmxhmx"
+		]
+	},
+	"title": "Karta znamenitosti",
+	"source-code": "izvorni kôd",
+	"search": "Traži",
+	"report-a-bug": "prijavi grešku",
+	"list-of-monuments": "Popis znamenitosti",
+	"switch-to-list": "prebaci na popis znamenitosti",
+	"switch-to-map": "prebaci na kartu znamenitosti"
+}
