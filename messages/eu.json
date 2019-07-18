@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"An13sa"
+		]
+	},
+	"title": "Monumentuen Mapa",
+	"source-code": "Iturburu-kodea",
+	"search-startswith": "Bilatu hurrengoagatik hasten den kultur ondarea",
+	"search-contains": "Bilatu hurrengoa duen kultur ondarea",
+	"search": "Bilatu",
+	"report-a-bug": "Errorea jakinarazi",
+	"list-of-monuments": "Monumentuen zerrenda",
+	"switch-to-list": "Monumentuen zerrendara aldatu",
+	"switch-to-map": "Monumentuen mapara aldatu"
+}
