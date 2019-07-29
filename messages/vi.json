@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Leducthn"
+		]
+	},
+	"title": "Bản đồ Di tích",
+	"source-code": "mã nguồn",
+	"search-startswith": "Tìm di sản văn hoá bắt đầu bằng",
+	"search-contains": "Tìm di sản văn hoá bắt đầu có chứa",
+	"search": "Tìm",
+	"map-copyright": "bản đồ Wikimedia thử nghiệm | Dữ liệu bản đồ &copy; <a href=\"http://openstreetmap.org/copyright\">người đóng góp OpenStreetMap</a>",
+	"report-a-bug": "báo lỗi",
+	"introduction": "Bạn chưa biết nên viết gì cho Wikipedia? Hãy thử ngay Bản đồ Di tích. Công cụ này chứa hàng ngàn di tích đang chờ người viết bài về những nơi đó. Bạn có thể phóng to khu vực bạn thích để nhìn thấy toàn bộ di tích chưa có bài viết trên Wikipedia. Bạn cũng có thể dùng các ô bên dưới để tìm tên di tích. Nhấn vào nhãn của một di tích bất kì để được tự động chuyển sang Trình soạn thảo trực quan.",
+	"list-of-monuments": "Danh sách di tích",
+	"switch-to-list": "chuyển sang danh sách di tích",
+	"switch-to-map": "chuyển sang bản đồ di tích",
+	"choose-project": "Chọn một dự án để thấy những di tích còn thiếu của dự án đó",
+	"campaign-new-article-summary": "Bài viết mới về"
+}
