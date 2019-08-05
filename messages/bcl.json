@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Brazal.dang"
+		]
+	},
+	"title": "Mapa kan Monumento",
+	"source-code": "Source code",
+	"search-startswith": "Maghanap nin kultural na pamana puon sa",
+	"search-contains": "Maghanap nin kultural na pamana na igwang",
+	"search": "Maghanap",
+	"map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+	"report-a-bug": "Magreport nin bug",
+	"introduction": "Dai aram an isusurat para sa Wikipedia? Porbaran an samong Mapa kan Monumento. Igwa ning ribong monumento na naghahalat nin parasurat na magibo nin artikulo para igdi.",
+	"list-of-monuments": "Listahan kan mga monumento",
+	"switch-to-list": "Magduman sa listahan kan monumento",
+	"switch-to-map": "Magduman sa mapa kan monumento",
+	"choose-project": "Magpili nin proyekto na nagpapahiling nin nawawarang monumento sa proyekto",
+	"campaign-new-article-summary": "Bagong artikulo para sa"
+}
