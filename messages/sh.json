@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"title": "Mapa spomenika",
+	"source-code": "izvorni kôd",
+	"search": "Traži",
+	"report-a-bug": "prijavi grešku",
+	"list-of-monuments": "Spisak spomenika",
+	"switch-to-list": "prijeđi na spisak spomenika",
+	"switch-to-map": "prijeđi na mapu spomenika",
+	"campaign-new-article-summary": "Novi članak za"
+}
