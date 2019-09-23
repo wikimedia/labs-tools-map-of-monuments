@@ -1,20 +1,21 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kingu"
+			"Kingu",
+			"Jon Harald Søby"
 		]
 	},
-	"title": "Kart over monumenter",
+	"title": "Kulturminnekart",
 	"source-code": "kildekode",
 	"search-startswith": "Finn kulturarv som starter med",
 	"search-contains": "Finn kulturarv som inneholder",
 	"search": "Søk",
 	"map-copyright": "Wikimedia maps beta | Kartdata &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap-bidragsyterne</a>",
-	"report-a-bug": "innrapporter feil",
-	"introduction": "Vet du ikke hva du skal skrive på Wikipedia enda? Prøv vårt Kart over monumenter. Det inneholder tusentalls monumenter som bare venter på at noen skal skrive en artikkel om dem. Du kan forstørre deg ned til et område som interesserer deg, og se alle monument der, uten Wikipedia-artikler. Eller, søk etter monumentnavn ved bruk av feltet nedenfor. Når du klikker på en monumentetikett videresendes du automatisk til Visuell redigering.",
-	"list-of-monuments": "Liste over monumenter",
-	"switch-to-list": "bytt til liste",
-	"switch-to-map": "bytt til kartvisning",
-	"choose-project": "Velg et prosjekt for å vise manglende monumenter i det prosjektet",
+	"report-a-bug": "rapporter feil",
+	"introduction": "Vet du ikke hva du skal skrive på Wikipedia enda? Prøv vårt kulturminnekart. Det inneholder tusentalls kulturminner som bare venter på at noen skal skrive en artikkel om dem. Du kan forstørre deg ned til et område som interesserer deg, og se alle kulturminner der som ikke har Wikipedia-artikler. Eller søk etter kulturminnenavn ved bruk av feltet nedenfor. Når du klikker på en kulturminneetikett videresendes du automatisk til visuell redigering.",
+	"list-of-monuments": "Liste over kulturminner",
+	"switch-to-list": "bytt til kulturminneliste",
+	"switch-to-map": "bytt til kulturminnekart",
+	"choose-project": "Velg et prosjekt for å vise manglende kulturminner i det prosjektet",
 	"campaign-new-article-summary": "Ny artikkel for"
 }
