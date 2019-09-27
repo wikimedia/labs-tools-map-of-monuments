@@ -70,13 +70,20 @@ def add_campaign():
 
 @app.route('/')
 def index():
-    return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''))
+    return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''), images=request.args.get('images'))
 
 @app.route('/get_monuments')
 def get_monuments():
     conn = connect()
     startswith = request.args.get('startswith', '')
     contains = request.args.get('contains', '')
+    images = request.args.get('images', None)
+    if images == "True":
+        images = True
+    elif images == "False":
+        images = False
+    else:
+        images = None
     javascript = "var addressPoints = [\n"
 
     with conn.cursor() as cur:
@@ -84,6 +91,11 @@ def get_monuments():
         data = cur.fetchall()
 
     for row in data:
+        if row[2] is not None and images is False:
+            continue
+        if row[2] is None and images is True:
+            continue
+
         if row[2]:
             image = '<img src="%s" /><br />' % row[2]
         else:

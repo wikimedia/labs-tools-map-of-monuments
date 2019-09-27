@@ -16,5 +16,9 @@
     "switch-to-list": "switch to list of monuments",
     "switch-to-map": "switch to map of monuments",
     "choose-project": "Choose a project to show missing monuments in that project",
-    "campaign-new-article-summary": "New article for"
+    "campaign-new-article-summary": "New article for",
+    "filter-images-intro": "Display only monuments with:",
+    "filter-images-true": "With an image available",
+    "filter-images-false": "No image available",
+    "filter-images-none": "Disable filter"
 }

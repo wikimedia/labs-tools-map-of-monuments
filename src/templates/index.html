@@ -11,6 +11,21 @@
                 <label for="contains">{{ _("search-contains") }}: </label><input type="text" id="contains" name="contains" value="{{ contains }}"><br />
             </div>
         </div>
+        <div class="row">
+            <p>{{ _("filter-images-intro") }}</p>
+            <div class="row">
+                <input type="radio" name="images" id="images-none" value="None" {% if images == None %}checked{% endif %}>
+                <label for="images-none">{{ _("filter-images-none") }}</label>
+            </div>
+            <div class="row">
+                <input type="radio" name="images" id="images-false" value="False" {% if images == "False" %}checked{% endif %}>
+                <label for="images-false">{{ _("filter-images-false") }}</label>
+            </div>
+            <div class="row">
+                <input type="radio" name="images" id="images-true" value="True" {% if images == "True" %}checked{% endif %}>
+                <label for="images-true">{{ _("filter-images-true") }}</label>
+            </div>
+        </div>
 
         <input class="btn btn-primary btn-block" type="submit" value="{{ _("search") }}" />
     </form>
@@ -20,7 +35,7 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="get_monuments?startswith={{ startswith }}&contains={{ contains }}"></script>
+<script src="get_monuments?startswith={{ startswith }}&contains={{ contains }}&images={{ images }}"></script>
 <script>
     var style = 'osm-intl';
     var server = 'https://maps.wikimedia.org/';
