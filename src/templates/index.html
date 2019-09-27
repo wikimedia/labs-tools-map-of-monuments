@@ -35,28 +35,49 @@
 {% endblock %}
 
 {% block scripts %}
-<script src="get_monuments?startswith={{ startswith }}&contains={{ contains }}&images={{ images }}"></script>
 <script>
-    var style = 'osm-intl';
-    var server = 'https://maps.wikimedia.org/';
+    function getJSON (url, callback, errorCallback) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', url, true);
+        xhr.responseType = 'json';
+        xhr.onload = function() {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(xhr.response);
+        } else {
+            if ( errorCallback !== undefined ) {
+                errorCallback(status, xhr.response);
+            }
+        }
+        };
+        xhr.send();
+    };
 
-    // Create a map
-    var map = L.map('map');
-    map.setView([50, 16], 7);
-    L.tileLayer(server + style + '/{z}/{x}/{y}.png', {
-                maxZoom: 18,
-                id: 'wikipedia-map-01',
-                attribution: '{{ _("map-copyright")|safe }}'
-    }).addTo(map);
-    
-    var markers = L.markerClusterGroup();
-    for (var i = 0; i < addressPoints.length; i++) {
-        var a = addressPoints[i];
-        var html = a[2];
-        var marker = L.marker(new L.LatLng(a[0], a[1]), { title: a[3] });
-        marker.bindPopup(html);
-        markers.addLayer(marker);
-    }
-    map.addLayer(markers);
+    getJSON(
+        'get_monuments?startswith={{ startswith }}&contains={{ contains }}&images={{ images }}',
+        function(addressPoints) {
+            var style = 'osm-intl';
+            var server = 'https://maps.wikimedia.org/';
+
+            // Create a map
+            var map = L.map('map');
+            map.setView([50, 16], 7);
+            L.tileLayer(server + style + '/{z}/{x}/{y}.png', {
+                        maxZoom: 18,
+                        id: 'wikipedia-map-01',
+                        attribution: '{{ _("map-copyright")|safe }}'
+            }).addTo(map);
+            
+            var markers = L.markerClusterGroup();
+            for (var i = 0; i < addressPoints.length; i++) {
+                var a = addressPoints[i];
+                var html = a[2];
+                var marker = L.marker(new L.LatLng(a[0], a[1]), { title: a[3] });
+                marker.bindPopup(html);
+                markers.addLayer(marker);
+            }
+            map.addLayer(markers);
+        }
+    );
 </script>
 {% endblock scripts %}

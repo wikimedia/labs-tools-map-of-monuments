@@ -84,10 +84,10 @@ def get_monuments():
         images = False
     else:
         images = None
-    javascript = "var addressPoints = [\n"
+    points = []
 
     with conn.cursor() as cur:
-        cur.execute('select lat, lon, replace(replace(image_url, "\'", "\\\\\'"), "`", "\\\\`"), replace(page_title, "`", "\\\\`"), lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
+        cur.execute('select lat, lon, image_url, page_title, lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
         data = cur.fetchall()
 
     for row in data:
@@ -100,10 +100,10 @@ def get_monuments():
             image = '<img src="%s" /><br />' % row[2]
         else:
             image = ''
-        javascript += '\t[%s, %s, `%s<a class="redlink" target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>`, `%s`],\n' % (row[0], row[1], image, row[4], urllib.parse.quote(row[3]), row[3], row[3])
+        html = image + '<a class="redlink" target="_blank" href="https://%s.wikipedia.org/wiki/%s?veaction=edit">%s</a>' % (row[4], urllib.parse.quote(row[3]), row[3])
+        points.append([row[0], row[1], html, row[3]])
 
-    javascript += '];'
-    return Response(javascript, mimetype="text/javascript")
+    return jsonify(points)
 
 @app.route('/list-of-monuments')
 def list_of_monuments():
