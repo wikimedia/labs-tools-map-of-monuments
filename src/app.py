@@ -80,7 +80,7 @@ def get_monuments():
     javascript = "var addressPoints = [\n"
 
     with conn.cursor() as cur:
-        cur.execute('select lat, lon, replace(replace(image_url, "\'", "\\\\\'"), "`", "\\\\`"), page_title, lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
+        cur.execute('select lat, lon, replace(replace(image_url, "\'", "\\\\\'"), "`", "\\\\`"), replace(page_title, "`", "\\\\`"), lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
         data = cur.fetchall()
 
     for row in data:
