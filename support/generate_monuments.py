@@ -34,7 +34,7 @@ countries = open(os.path.join(__dir__, 'countries.txt')).read().splitlines()
 with cache.cursor() as cur:
     cur.execute('TRUNCATE TABLE monuments;')
 
-def process_url(payload):
+def process_url_internal(payload):
     r = requests.get('https://tools.wmflabs.org/heritage/api/api.php', params=payload)
     print(r.url)
     data = r.json()
@@ -69,7 +69,12 @@ def process_url(payload):
     cache.commit()
     if data.get('continue', {}).get('srcontinue'):
         payload['srcontinue'] = data.get('continue', {}).get('srcontinue')
-        process_url(payload)
+        return payload
+    return None
+
+def process_url(payload):
+    while payload is not None:
+        payload = process_url_internal(payload)
 
 
 for country in countries:
