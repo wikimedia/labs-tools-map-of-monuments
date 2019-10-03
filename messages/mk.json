@@ -16,5 +16,9 @@
 	"switch-to-list": "прејди на список на споменици",
 	"switch-to-map": "прејди на карта на споменици",
 	"choose-project": "Изберете за кој проект да се прикажат отсутни споменици",
-	"campaign-new-article-summary": "Нова статија за"
+	"campaign-new-article-summary": "Нова статија за",
+	"filter-images-intro": "Прикажи само споменици со:",
+	"filter-images-true": "Со достапна слика",
+	"filter-images-false": "Без достапна слика",
+	"filter-images-none": "Исклучи филтер"
 }

@@ -3,7 +3,8 @@
 		"authors": [
 			"Movses",
 			"Vlad5250",
-			"Link2xt"
+			"Link2xt",
+			"Katunchik"
 		]
 	},
 	"title": "Карта памятников",
@@ -18,5 +19,9 @@
 	"switch-to-list": "перейти к списку памятников",
 	"switch-to-map": "перейти к карте памятников",
 	"choose-project": "Выберите проект, для которого хотите показать отсутствующие памятники",
-	"campaign-new-article-summary": "Новая статья для"
+	"campaign-new-article-summary": "Новая статья для",
+	"filter-images-intro": "Показывать только памятники с:",
+	"filter-images-true": "С имеющимся изображением",
+	"filter-images-false": "Изображение отсутствует",
+	"filter-images-none": "Отключить фильтр"
 }

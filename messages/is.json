@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"source-code": "grunnkóði",
+	"search-startswith": "Finndu menningararf sem byrjar á",
+	"search-contains": "Finndu menningararf sem inniheldur",
+	"search": "Leita",
+	"map-copyright": "Wikimedia kort beta-prófunarútgáfa | Kortagögn &copy; <a href=\"http://openstreetmap.org/copyright\">Þátttakendur í OpenStreetMap verkefninu</a>",
+	"report-a-bug": "tilkynna um villu",
+	"campaign-new-article-summary": "Ný grein fyrir"
+}

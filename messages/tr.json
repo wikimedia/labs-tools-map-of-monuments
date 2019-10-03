@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"BaRaN6161 TURK"
 		]
 	},
 	"title": "Anıtlar Haritası",
@@ -16,5 +17,9 @@
 	"switch-to-list": "anıtların listesine geç",
 	"switch-to-map": "anıtların haritasına geç",
 	"choose-project": "Bu projedeki eksik anıtları göstermek için bir proje seçin",
-	"campaign-new-article-summary": "Şunun için yeni madde:"
+	"campaign-new-article-summary": "Şunun için yeni madde:",
+	"filter-images-intro": "Yalnızca aşağıdakileri içeren anıtları göster:",
+	"filter-images-true": "Resim mevcut",
+	"filter-images-false": "Resim yok",
+	"filter-images-none": "Filtreyi devre dışı bırak"
 }

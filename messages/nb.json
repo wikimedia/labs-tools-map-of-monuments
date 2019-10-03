@@ -17,5 +17,9 @@
 	"switch-to-list": "bytt til kulturminneliste",
 	"switch-to-map": "bytt til kulturminnekart",
 	"choose-project": "Velg et prosjekt for å vise manglende kulturminner i det prosjektet",
-	"campaign-new-article-summary": "Ny artikkel for"
+	"campaign-new-article-summary": "Ny artikkel for",
+	"filter-images-intro": "Vis kun kulturminner som:",
+	"filter-images-true": "Har bilde tilgjengelig",
+	"filter-images-false": "Ikke har bilde tilgjengelig",
+	"filter-images-none": "Slå av filter"
 }

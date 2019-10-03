@@ -17,5 +17,7 @@
 	"switch-to-list": "passa all'elenco dei monumenti",
 	"switch-to-map": "passa alla mappa dei monumenti",
 	"choose-project": "Scegli un progetto per mostrare i monumenti mancanti in quel progetto",
-	"campaign-new-article-summary": "Nuova voce per"
+	"campaign-new-article-summary": "Nuova voce per",
+	"filter-images-true": "Con un'immagine disponibile",
+	"filter-images-false": "Nessuna immagine disponibile"
 }

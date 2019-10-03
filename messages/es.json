@@ -3,7 +3,9 @@
 		"authors": [
 			"Laura Ospina",
 			"Ktranz",
-			"Jelou"
+			"Jelou",
+			"Fitoschido",
+			"Madamebiblio"
 		]
 	},
 	"title": "Mapa de monumentos",
@@ -18,5 +20,9 @@
 	"switch-to-list": "Cambiar a lista de monumentos",
 	"switch-to-map": "Cambiar a mapa de monumentos",
 	"choose-project": "Seleccionar un proyecto para mostrar los monumentos que faltan en ese proyecto",
-	"campaign-new-article-summary": "Artículo nuevo de"
+	"campaign-new-article-summary": "Artículo nuevo de",
+	"filter-images-intro": "Mostrar solo monumentos con:",
+	"filter-images-true": "Con una imagen disponible",
+	"filter-images-false": "Ninguna imagen disponible",
+	"filter-images-none": "Desactivar filtro"
 }

@@ -9,5 +9,9 @@
 	"search": "Sichen",
 	"report-a-bug": "E Feeler mellen",
 	"list-of-monuments": "Lëscht vun de Monumenter",
-	"campaign-new-article-summary": "Neien Artikel fir"
+	"campaign-new-article-summary": "Neien Artikel fir",
+	"filter-images-intro": "Nëmmen Monumenter weise mat:",
+	"filter-images-true": "Mat engem disponibele Bild",
+	"filter-images-false": "Ouni disponibelt Bild",
+	"filter-images-none": "Filter desaktivéieren"
 }

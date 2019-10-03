@@ -16,5 +16,9 @@
 	"switch-to-list": "byt till lista över monument",
 	"switch-to-map": "byt till karta över monument",
 	"choose-project": "Välj ett projekt för att visa saknade monument i projektet",
-	"campaign-new-article-summary": "Ny artikel för"
+	"campaign-new-article-summary": "Ny artikel för",
+	"filter-images-intro": "Visa endast monument med:",
+	"filter-images-true": "Med en tillgänglig bild",
+	"filter-images-false": "Ingen tillgänglig bild",
+	"filter-images-none": "Inaktivera filter"
 }

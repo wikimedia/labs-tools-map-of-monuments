@@ -16,5 +16,9 @@
 	"switch-to-list": "passe a l'elenghe de le monuminde",
 	"switch-to-map": "passe a 'a mappe de le monuminde",
 	"choose-project": "Scacchie 'nu proggette da fà 'ndrucà le monuminde ca mangane jndr'à quidde proggette",
-	"campaign-new-article-summary": "Vôscia nove pe"
+	"campaign-new-article-summary": "Vôscia nove pe",
+	"filter-images-intro": "Fà 'ndrucà sulamende le monuminde cu:",
+	"filter-images-true": "Cu 'n'immaggine disponibbele",
+	"filter-images-false": "Nisciuna immaggine disponibbele",
+	"filter-images-none": "Disabbilite 'u filtre"
 }

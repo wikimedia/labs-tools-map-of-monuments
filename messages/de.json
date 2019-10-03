@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Metalhead64"
+			"Metalhead64",
+			"Tobi 406"
 		]
 	},
 	"title": "Map of Monuments",
@@ -16,5 +17,7 @@
 	"switch-to-list": "Zur Denkmälerliste wechseln",
 	"switch-to-map": "Zur Denkmälerkarte wechseln",
 	"choose-project": "Wähle ein Projekt aus, um fehlende Denkmäler in diesem Projekt anzuzeigen.",
-	"campaign-new-article-summary": "Neuer Artikel für"
+	"campaign-new-article-summary": "Neuer Artikel für",
+	"filter-images-false": "Kein Bild verfügbar",
+	"filter-images-none": "Filter deaktivieren"
 }

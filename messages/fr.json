@@ -3,7 +3,8 @@
 		"authors": [
 			"Gomoko",
 			"Wladek92",
-			"Zarisi"
+			"Zarisi",
+			"Verdy p"
 		]
 	},
 	"title": "Carte des monuments",
@@ -18,5 +19,9 @@
 	"switch-to-list": "bouton pour lister les monuments",
 	"switch-to-map": "bouton de la carte des monuments",
 	"choose-project": "Sélectionner un projet, pour afficher les monuments manquants dans ce projet",
-	"campaign-new-article-summary": "Nouvel article pour"
+	"campaign-new-article-summary": "Nouvel article pour",
+	"filter-images-intro": "Afficher seulement les monuments :",
+	"filter-images-true": "avec une image disponible",
+	"filter-images-false": "sans image disponible",
+	"filter-images-none": "désactiver le filtre"
 }

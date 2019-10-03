@@ -16,5 +16,9 @@
 	"switch-to-list": "التبديل إلى خريطة المعالم",
 	"switch-to-map": "التبديل إلى خريطة المعالم",
 	"choose-project": "اختر مشروعا لإظهار المعالم المفقودة في ذلك المشروع",
-	"campaign-new-article-summary": "مقالة جديدة لـ"
+	"campaign-new-article-summary": "مقالة جديدة لـ",
+	"filter-images-intro": "عرض الآثار فقط زات:",
+	"filter-images-true": "صورة متاحة",
+	"filter-images-false": "لا صورة متاحة",
+	"filter-images-none": "مرشح تعطيل"
 }

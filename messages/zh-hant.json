@@ -16,5 +16,9 @@
 	"switch-to-list": "切換至遺跡清單",
 	"switch-to-map": "切換至遺跡地圖",
 	"choose-project": "挑選專案來顯示出專案裡缺少的遺跡",
-	"campaign-new-article-summary": "新條目有關"
+	"campaign-new-article-summary": "新條目有關",
+	"filter-images-intro": "僅顯示遺蹟俱有：",
+	"filter-images-true": "有可用圖片",
+	"filter-images-false": "沒有圖片可用",
+	"filter-images-none": "停用篩選"
 }

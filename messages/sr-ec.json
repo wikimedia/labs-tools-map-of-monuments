@@ -18,5 +18,9 @@
 	"switch-to-list": "пребаци на списак споменика",
 	"switch-to-map": "пребаци на мапу споменика",
 	"choose-project": "Одаберите пројекат да бисте приказали споменике који недостају том пројекту",
-	"campaign-new-article-summary": "Нови чланак за"
+	"campaign-new-article-summary": "Нови чланак за",
+	"filter-images-intro": "Приказује само споменике са:",
+	"filter-images-true": "Са доступном сликом",
+	"filter-images-false": "Без доступне слике",
+	"filter-images-none": "Онемогућен филтер"
 }
