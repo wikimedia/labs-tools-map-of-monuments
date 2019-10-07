@@ -16,5 +16,9 @@
 	"switch-to-list": "מעבר לרשימת אתרי המורשת",
 	"switch-to-map": "מעבר למפת אתרי המורשת",
 	"choose-project": "נא לבחור מיזם כדי להציג אתרי מורשת חסרים במיזם זה",
-	"campaign-new-article-summary": "ערך חדש עבור"
+	"campaign-new-article-summary": "ערך חדש עבור",
+	"filter-images-intro": "הצגת אתרי מורשת:",
+	"filter-images-true": "עם תמונה זמינה",
+	"filter-images-false": "ללא תמונה זמינה",
+	"filter-images-none": "ביטול המסנן"
 }

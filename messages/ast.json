@@ -16,5 +16,9 @@
 	"switch-to-list": "cambiar a la llista de monumentos",
 	"switch-to-map": "cambiar al mapa de monumentos",
 	"choose-project": "Escoyer un proyeutu p'amosar los monumentos que falten nesi proyeutu",
-	"campaign-new-article-summary": "Artículu nuevu pa"
+	"campaign-new-article-summary": "Artículu nuevu pa",
+	"filter-images-intro": "Amosar namái monumentos...:",
+	"filter-images-true": "Con una imaxe disponible",
+	"filter-images-false": "Ensin imaxe disponible",
+	"filter-images-none": "Desactivar filtru"
 }
