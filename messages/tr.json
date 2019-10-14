@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Hedda",
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"Grkn gll"
 		]
 	},
-	"title": "Anıtlar Haritası",
+	"title": "Anıtların Haritası",
 	"source-code": "kaynak kodu",
-	"search-startswith": "Şununla başlayan kültürel mirası bulun:",
-	"search-contains": "Şunları içeren kültürel mirası bulun:",
+	"search-startswith": "Şununla başlayan kültürel mirasları bulun:",
+	"search-contains": "Şunları içeren kültürel mirasları bulun:",
 	"search": "Ara",
 	"map-copyright": "Wikimedia haritalar beta | Harita veri &kopyala; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap iştirakçileri</a>",
 	"report-a-bug": "hata bildir",
-	"introduction": "Vikipedi için ne yazacağını bilmiyor musun? Anıtlar Haritası'nı dene. Bu anıtlar sadece birilerinin onları seçmesini ve haklarında bir madde yazmasını bekliyor. İlgilendiğiniz yerleri harita yakınlaştırabilir ve Sizin için ilginç olan bölgeye yakınlaştırabilir ve Vikipedi'de maddesi olmayan anıtları görebilirsiniz. Anıt adının en azından bir kısmını yazarak anıtı ismine göre de aratabilirsiniz. Harita, bir anıtın adını tıkladığınızda sizi Görsel Editör'e yönlendirecektir.",
+	"introduction": "Vikipedi için ne yazacağınızı henüz bilmiyor musunuz? Anıtlar Haritamızı deneyin. Sadece birinin bir makale yazmasını bekleyen binlerce anıt var. Vikipedi makaleleri olmadan tüm anıtları görmek için ilginizi çeken bir alanı yakınlaştırabilirsiniz. Veya aşağıdaki alanları kullanarak anıt adına göre arama yapın. Herhangi bir anıtın etiketini tıklamak sizi otomatik olarak Görsel Editöre yönlendirir.",
 	"list-of-monuments": "Anıtların listesi",
 	"switch-to-list": "anıtların listesine geç",
 	"switch-to-map": "anıtların haritasına geç",

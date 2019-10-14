@@ -16,5 +16,9 @@
 	"switch-to-list": "cola a sa lista de sos monumentos",
 	"switch-to-map": "cola a sa mapa de sos monumentos",
 	"choose-project": "Issèbera unu progetu pro ammustrare sos monumentos chi mancant in cussu progetu",
-	"campaign-new-article-summary": "Artìculu nou pro"
+	"campaign-new-article-summary": "Artìculu nou pro",
+	"filter-images-intro": "Ammustra petzi documentos cun:",
+	"filter-images-true": "Cun un'immàgine disponìbile",
+	"filter-images-false": "Peruna immàgine disponìbile",
+	"filter-images-none": "Disabìlita su filtru"
 }

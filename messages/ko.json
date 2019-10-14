@@ -15,5 +15,7 @@
 	"list-of-monuments": "문화유산 목록",
 	"switch-to-list": "문화유산 목록으로 전환",
 	"switch-to-map": "문화유산 지도로 전환",
-	"choose-project": "해당 프로젝트에 없는 문화유산을 표시하려면 프로젝트를 선택하십시오"
+	"choose-project": "해당 프로젝트에 없는 문화유산을 표시하려면 프로젝트를 선택하십시오",
+	"filter-images-false": "사용 가능한 이미지 없음",
+	"filter-images-none": "필터 비활성화"
 }
