@@ -17,5 +17,9 @@
 	"switch-to-list": "mudar para a lista de monumentos",
 	"switch-to-map": "mudar para o mapa de monumentos",
 	"choose-project": "Escolha um projeto para mostrar os monumentos em falta nesse projeto",
-	"campaign-new-article-summary": "Artigo novo para"
+	"campaign-new-article-summary": "Artigo novo para",
+	"filter-images-intro": "Apresentar só monumentos com:",
+	"filter-images-true": "Com uma imagem disponível",
+	"filter-images-false": "Sem nenhuma imagem disponível",
+	"filter-images-none": "Desativar filtro"
 }
