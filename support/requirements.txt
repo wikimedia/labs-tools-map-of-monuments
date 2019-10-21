@@ -15,4 +15,4 @@ requests==2.19.1
 simplejson==3.16.0
 toolforge==4.1.0
 urllib3==1.23
-Werkzeug==0.14.1
+Werkzeug==0.15.3
