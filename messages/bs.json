@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Semina x"
+		]
+	},
+	"title": "Mapa Spomenika",
+	"source-code": "izvorni kod",
+	"search-startswith": "Nađi kulturno naslijeđe počevši s",
+	"search-contains": "Nađi kulturno naslijeđe koje sadrži",
+	"search": "Pretraga",
+	"list-of-monuments": "Lista spomenika",
+	"switch-to-list": "prebaci se na listu spomenika"
+}
