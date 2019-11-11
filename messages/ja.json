@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Omotecho",
+			"Oxbqskeptzwizkgdcxakhnrb",
+			"Shirayuki"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "ソースコード",
+	"search-startswith": "名称が次の文字列で始まる文化遺産を検索",
+	"search-contains": "次を含む文化遺産を検索",
+	"search": "検索",
+	"map-copyright": "ウィキメディアのベータ版地図 | 地図情報 &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap 貢献者</a>",
+	"report-a-bug": "バグを報告",
+	"introduction": "ウィキペディアに何を書くべきかまだ決まりませんか？ Map of Monuments をお試しください。何千というモニュメントが記事を書いてもらうのを待っています。興味のある分野にズームして、ウィキペディアにまだ記事がないモニュメントをすべて閲覧できます。あるいはまた、以下のいずれかの欄を使い、モニュメントの名称で検索します。モニュメントを選んでラベルをクリックすると、自動的にビジュアルエディターにリダイレクトされます。",
+	"list-of-monuments": "モニュメントの一覧",
+	"switch-to-list": "モニュメントの一覧に切り替える",
+	"switch-to-map": "モニュメントの地図に切り替える",
+	"choose-project": "モニュメントが未登録のプロジェクトを選択",
+	"campaign-new-article-summary": "に関する新規記事",
+	"filter-images-intro": "以下に該当するモニュメントのみ表示：",
+	"filter-images-true": "画像が存在する候補",
+	"filter-images-false": "画像がありません",
+	"filter-images-none": "フィルターを無効にする"
+}
