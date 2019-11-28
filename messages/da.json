@@ -14,5 +14,8 @@
 	"switch-to-list": "skift til liste over monumenter",
 	"switch-to-map": "skift til kort over monumenter",
 	"choose-project": "Vælg projekt, vi vil vise monumenter der mangler i det projekt",
-	"campaign-new-article-summary": "Ny artikel for"
+	"campaign-new-article-summary": "Ny artikel for",
+	"filter-images-intro": "Vis kun monumenter med:",
+	"filter-images-true": "Med et billede tilgængeligt",
+	"filter-images-false": "Intet billede tilgængeligt"
 }
