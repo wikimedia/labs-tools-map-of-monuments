@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joseplluis"
+		]
+	},
+	"title": "Mapa de Monuments",
+	"source-code": "codi font",
+	"search-startswith": "Troba el patrimoni cultural que comença amb",
+	"search-contains": "Troba el patrimoni cultural que conté",
+	"search": "Cerca",
+	"map-copyright": "Wikimedia mapes beta | Dades de mapa © <a href=\"http://openstreetmap.org/copyright\">Col·laboradors de OpenStreetMap</a>",
+	"report-a-bug": "informa d'un error",
+	"introduction": "Encara no saps què cal per escriure per la Viquipèdia? Prova el nostre Mapa de Monuments. Conté milers de monuments només esperant a algú per escriure un article sobre ells. Pots fer zoom en una àrea que t'interessa per veure tots els monuments d'allà sense articles de Viquipèdia. O, cerca per nom de monument utilitzant el camp a sota. Fent clic en qualsevol etiqueta de monument automàticament et redirigirà a l'Editor Visual.",
+	"list-of-monuments": "Llista de monuments",
+	"switch-to-list": "canvia a llista de monuments",
+	"switch-to-map": "canvia a mapa de monuments",
+	"choose-project": "Escull un projecte per mostrar els monuments que falten en aquell projecte",
+	"campaign-new-article-summary": "Article nou per",
+	"filter-images-intro": "Mostra monuments només amb:",
+	"filter-images-true": "Amb una imatge disponible",
+	"filter-images-false": "Cap imatge disponible",
+	"filter-images-none": "Deshabilita filtre"
+}
