@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andemta",
+			"Minaabdu"
+		]
+	},
+	"title": "የሐውልቶች ካርታ",
+	"source-code": "ኮድ ለማየት",
+	"search-startswith": "በኒህ ቃላት የሚጀምር ባህላዊ ቅርስ ለማግኘት",
+	"search-contains": "ይህንን የሚያካትት ባህላዊ ቅርስ ለማግኘት",
+	"search": "ፈልግ",
+	"map-copyright": "የዊኪሚድያ ካርታ ሙከራ| የካርታ ቅጂ; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap አቅራቢዎች</a>",
+	"report-a-bug": "ችግር ለመጠቆም",
+	"introduction": "ለዊኪፒድያ ስለምን እንደሚፅፉ አልወሰኑም? እስቲ የሐውልቶች ካርታችንን ይሞክሩ:: ይህ ካርታ የእርስዎን መሰል ጸሐፊዎች የሚጠብቁ በሺዎች የሚቆጥሩ ሐውልቶችን ያካትታል:: ወደፈለጉት ስፍራ ጠቁመው እስካሁን መጣጥፍ ያልተፃፈላቸውን ሐውልቶች ማየት ይችላሉ:: በአማራጩም በሐውልት ስም መፈለግ ይችላሉ:: የአንድ ሐውልትን ስም በመጫን ወደ ምስል እርማት መግባትም ይቻላል::",
+	"list-of-monuments": "የሐውልቶች ዝርዝር",
+	"switch-to-list": "ወደ ሐውልቶች ዝርዝር ለመመለስ",
+	"switch-to-map": "ወደ ሐውልቶች ካርታ ለመመለስ",
+	"choose-project": "ያልተካተቱ ሐውልቶች ያሉበት ፕሮጄክትን ለመምረጥ",
+	"campaign-new-article-summary": "አዲስ መጣጥፍ ስለ",
+	"filter-images-intro": "ይህንን ያላቸው ሐውልቶች ብቻ ለማሳየት",
+	"filter-images-true": "ምስል አብሮ የሚያካትት",
+	"filter-images-false": "ምስል የሌለው",
+	"filter-images-none": "ማጣሪያው ይቅር"
+}
