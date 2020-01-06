@@ -17,5 +17,6 @@
 	"campaign-new-article-summary": "Ny artikel for",
 	"filter-images-intro": "Vis kun monumenter med:",
 	"filter-images-true": "Med et billede tilgængeligt",
-	"filter-images-false": "Intet billede tilgængeligt"
+	"filter-images-false": "Intet billede tilgængeligt",
+	"filter-images-none": "Deaktiver filter"
 }
