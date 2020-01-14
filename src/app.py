@@ -70,7 +70,7 @@ def add_campaign():
 
 @app.route('/')
 def index():
-    return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''), images=request.args.get('images'))
+    return render_template('index.html', startswith=request.args.get('startswith', ''), contains=request.args.get('contains', ''), images=request.args.get('images'), countries=request.args.get('countries', ''))
 
 @app.route('/get_monuments')
 def get_monuments():
@@ -78,6 +78,11 @@ def get_monuments():
     startswith = request.args.get('startswith', '')
     contains = request.args.get('contains', '')
     images = request.args.get('images', None)
+    countries = request.args.get('countries')
+    if countries:
+        countries = countries.split('|')
+    else:
+        countries = []
     if images == "True":
         images = True
     elif images == "False":
@@ -87,7 +92,11 @@ def get_monuments():
     points = []
 
     with conn.cursor() as cur:
-        cur.execute('select lat, lon, image_url, page_title, lang from monuments where page_title like %s and page_title like %s', (startswith + '%', '%' + contains + '%'))
+        if len(countries) > 0:
+            countries_sql = ' and country in (%s)' % (', '.join(['%s'] * len(countries)))   # HACK: There's gotta be a more nice way
+        else:
+            countries_sql = ''
+        cur.execute('select lat, lon, image_url, page_title, lang from monuments where page_title like %s and page_title like %s' + countries_sql, (startswith + '%', '%' + contains + '%') + tuple(countries))
         data = cur.fetchall()
 
     for row in data:
