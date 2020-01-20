@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"A Chinese Wikipedian",
-			"Deathkon"
+			"Deathkon",
+			"VulpesVulpes825"
 		]
 	},
 	"title": "古迹地图",
@@ -17,5 +18,9 @@
 	"switch-to-list": "切换至纪念碑列表",
 	"switch-to-map": "切换至纪念碑地图",
 	"choose-project": "选择一个项目来显示在该项目中缺少的纪念碑",
-	"campaign-new-article-summary": "新的文章，关于"
+	"campaign-new-article-summary": "新的文章，关于",
+	"filter-images-intro": "仅显示遗迹俱有：",
+	"filter-images-true": "有可用的图片",
+	"filter-images-false": "没有可用图片",
+	"filter-images-none": "禁用过滤器"
 }
