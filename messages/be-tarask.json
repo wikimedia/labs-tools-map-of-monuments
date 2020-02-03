@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Renessaince"
 		]
 	},
 	"title": "Мапа славутасьцяў",
@@ -16,5 +17,9 @@
 	"switch-to-list": "пераключыць на сьпіс славутасьцяў",
 	"switch-to-map": "пераключыць на мапу славутасьцяў",
 	"choose-project": "Абярыце праект, каб паказаць адсутныя славутасьці ў гэтым праекце",
-	"campaign-new-article-summary": "Новы артыкул для"
+	"campaign-new-article-summary": "Новы артыкул для",
+	"filter-images-intro": "Паказваць толькі славутасьці з:",
+	"filter-images-true": "З даступнымі выявамі",
+	"filter-images-false": "Без даступных выяваў",
+	"filter-images-none": "Адключыць фільтар"
 }
