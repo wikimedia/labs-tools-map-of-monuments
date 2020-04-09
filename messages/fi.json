@@ -1,12 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
+			"Majavah",
 			"Pyscowicz"
 		]
 	},
 	"title": "Map of Monuments",
 	"source-code": "lähdekoodi",
+	"search-startswith": "Löydä kulttuuriperintöä, joka alkaa",
+	"search-contains": "Löydä kulttuuriperintöä, joka sisältää",
 	"search": "Hae",
+	"map-copyright": "Wikimedia maps beta | Karttatieto &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap-osallistujat</a>",
 	"report-a-bug": "ilmoita virheestä",
-	"list-of-monuments": "Luettelo monumenteista"
+	"introduction": "Etkö vielä tiedä, mistä kirjoittaa Wikipediaan? Kokeile Monumenttikarttaamme. Se sisältää tuhansia monumenttejä, jotka vain odottavat, että joku kirjoittaisi niistä artikkelin. Voit zoomata alueelle, joka kiinostaa sinua nähdäksesi kaikki monumentit siellä ilman Wikipedia-artikkeleita. Voit myös hakea monumentteja nimellä alapuolella olevaa kenttää käyttäen. Klikatessasi monumentin nimeä sinut ohjataan automaattisesti VisualEditor-muokkaimeen.",
+	"list-of-monuments": "Luettelo monumenteista",
+	"switch-to-list": "vaihda listaan monumenteista",
+	"switch-to-map": "vaihda karttaan monumenteista",
+	"choose-project": "Valitse projekti katsoaksesi puuttuvia monumentteja siinä projektissa",
+	"campaign-new-article-summary": "Uusi artikkeli aiheesta",
+	"filter-images-intro": "Näytä vain monumentit, joissa:",
+	"filter-images-true": "Kuva saatavilla",
+	"filter-images-false": "Ei kuvaa saatavilla",
+	"filter-images-none": "Ota suodatin pois käytöstä"
 }

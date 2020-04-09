@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fulup",
 			"Gwenn-Ael"
 		]
 	},
@@ -16,5 +17,9 @@
 	"switch-to-list": "Bouton evit listennañ ar monumantoù",
 	"switch-to-map": "Bouton eus karta ar monumantoù",
 	"choose-project": "Dibab ur raktres, evit diskwel ar monumantoù a vank er raktres-se",
-	"campaign-new-article-summary": "Pennad nevez evit"
+	"campaign-new-article-summary": "Pennad nevez evit",
+	"filter-images-intro": "Diskwel hepken savadurioù gant :",
+	"filter-images-true": "Gant ur skeudenn hegerz",
+	"filter-images-false": "N'eus skeudenn ebet hegerz",
+	"filter-images-none": "Diweredekaat ar sil"
 }
