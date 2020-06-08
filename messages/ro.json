@@ -16,5 +16,9 @@
 	"switch-to-list": "schimbă la lista monumentelor",
 	"switch-to-map": "schimbă la harta monumentelor",
 	"choose-project": "\nAlegeți un proiect pentru a afișa monumentele care lipsesc în proiectul respectiv",
-	"campaign-new-article-summary": "Articol nou pentru"
+	"campaign-new-article-summary": "Articol nou pentru",
+	"filter-images-intro": "Afișați numai monumente cu:",
+	"filter-images-true": "Cu o imagine disponibilă",
+	"filter-images-false": "Fără imagine disponibilă",
+	"filter-images-none": "Dezactivați filtrul"
 }
