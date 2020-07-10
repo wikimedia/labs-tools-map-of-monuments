@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DraconicDark",
 			"Metalhead64",
 			"Tobi 406"
 		]
@@ -18,6 +19,8 @@
 	"switch-to-map": "Zur Denkmälerkarte wechseln",
 	"choose-project": "Wähle ein Projekt aus, um fehlende Denkmäler in diesem Projekt anzuzeigen.",
 	"campaign-new-article-summary": "Neuer Artikel für",
+	"filter-images-intro": "Nur Monumente anzeigen mit:",
+	"filter-images-true": "Mit einem verfügbaren Bild",
 	"filter-images-false": "Kein Bild verfügbar",
 	"filter-images-none": "Filter deaktivieren"
 }
