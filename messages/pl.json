@@ -1,10 +1,26 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Rail",
+			"WaldiSt"
 		]
 	},
+	"title": "Mapa Zabytków",
 	"source-code": "kod źródłowy",
+	"search-startswith": "Znajdź dziedzictwo kulturowe, zaczynając od",
+	"search-contains": "Znajdź dziedzictwo kulturowe zawierające",
 	"search": "Szukaj",
-	"report-a-bug": "zgłoś błąd"
+	"map-copyright": "Mapy Wikimedia beta | Dane mapy i kopia; <a href=\"http://openstreetmap.org/copyright\">Współtwórcy OpenStreetMap</a>",
+	"report-a-bug": "zgłoś błąd",
+	"introduction": "Nie wiesz jeszcze, co napisać w Wikipedii? Zajrzyj na naszą mapę zabytków. Zawiera tysiące pomników, które tylko czekają, aż ktoś napisze o nich artykuł. Możesz powiększyć obszar, który Cię interesuje, aby zobaczyć wszystkie zabytki bez artykułów z Wikipedii. Lub wyszukaj według nazwy pomnika, korzystając z jednego z poniższych pól. Kliknięcie etykiety dowolnego pomnika spowoduje automatyczne przekierowanie do edytora wizualnego.",
+	"list-of-monuments": "Lista zabytków",
+	"switch-to-list": "przejdź do listy zabytków",
+	"switch-to-map": "przejdź do mapy zabytków",
+	"choose-project": "Wybierz projekt, aby pokazać brakujące zabytki w tym projekcie",
+	"campaign-new-article-summary": "Nowy artykuł dla",
+	"filter-images-intro": "Wyświetlaj tylko zabytki z:",
+	"filter-images-true": "Z dostępnym obrazem",
+	"filter-images-false": "Obraz nie dostępny",
+	"filter-images-none": "Wyłącz filtr"
 }
