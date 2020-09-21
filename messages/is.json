@@ -4,11 +4,20 @@
 			"Sveinn í Felli"
 		]
 	},
+	"title": "Kort yfir minnismerki",
 	"source-code": "grunnkóði",
 	"search-startswith": "Finndu menningararf sem byrjar á",
 	"search-contains": "Finndu menningararf sem inniheldur",
 	"search": "Leita",
 	"map-copyright": "Wikimedia kort beta-prófunarútgáfa | Kortagögn &copy; <a href=\"http://openstreetmap.org/copyright\">Þátttakendur í OpenStreetMap verkefninu</a>",
 	"report-a-bug": "tilkynna um villu",
-	"campaign-new-article-summary": "Ný grein fyrir"
+	"list-of-monuments": "Listi yfir minnismerki",
+	"switch-to-list": "skipta yfir í lista yfir minnismerki",
+	"switch-to-map": "skipta yfir í kort yfir minnismerki",
+	"choose-project": "Veldu verkefni til að sýna minnismerki sem vantar í því verkefni",
+	"campaign-new-article-summary": "Ný grein fyrir",
+	"filter-images-intro": "Einungis birta minnismerki með:",
+	"filter-images-true": "Tiltækri mynd",
+	"filter-images-false": "Enginn tiltæk mynd",
+	"filter-images-none": "Gera síu óvirka"
 }
