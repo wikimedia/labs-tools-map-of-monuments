@@ -9,7 +9,7 @@
 	"search-startswith": "Pronađi samo kulturno nasleđe počevši od",
 	"search-contains": "Pronađi samo kulturno nasleđe koje sadrži",
 	"search": "Pretraži",
-	"map-copyright": "Vikimedijine beta mape | Podaci mapa &copy; <a href=\"http://openstreetmap.org/copyright\">Doprinosioci mapa</a>",
+	"map-copyright": "Vikimedijine beta mape | Podaci mapa &copy; <a href=\"https://openstreetmap.org/copyright\">Doprinosioci mapa</a>",
 	"report-a-bug": "prijavi grešku",
 	"introduction": "Ne znate trenutno šta da napišete za Vikipediju? Možete koristiti ovu mapu spomenika. Ovi spomenici samo čekaju nekoga da ih odabere i napiše članak. Možete zumirati područje koje vam je interesantno i videćete spomenike za koje ne postoje članci na Vikipediji. Takođe možete vršiti pretragu po nazivu spomenika, tako što ćete napisati najmanje deo naziva spomenika. Mapa će vas preusmeriti na Vizuelni uređivač nakon što kliknete na naziv spomenika."
 }

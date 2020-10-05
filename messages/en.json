@@ -9,7 +9,7 @@
     "search-startswith": "Find cultural heritage starting with",
     "search-contains": "Find cultural heritage containing",
     "search": "Search",
-    "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+    "map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
     "report-a-bug": "report a bug",
     "introduction": "Don’t know what to write for Wikipedia yet? Try our Map of Monuments. It contains thousands of monuments just waiting for somebody to write an article on them. You can zoom to an area that interests you to see all the monuments there without Wikipedia articles. Or, search by monument name using either field below. Clicking on any monument's label will automatically redirect you to the Visual Editor.",
     "list-of-monuments": "List of monuments",

@@ -13,7 +13,7 @@
 	"search-startswith": "Encuentra el patrimonio cultural que empiece por",
 	"search-contains": "Encuentra el patrimonio cultural que contenga",
 	"search": "Buscar",
-	"map-copyright": "Mapas de Wikimedia Beta | Datos del mapa &copy; <a href=\"http://openstreetmap.org/copyright\"> colaboradores de OpenStreetMap<a>",
+	"map-copyright": "Mapas de Wikimedia Beta | Datos del mapa &copy; <a href=\"https://openstreetmap.org/copyright\"> colaboradores de OpenStreetMap<a>",
 	"report-a-bug": "Reportar un error",
 	"introduction": "¿Aún no sabes qué escribir en Wikipedia? Prueba nuestro Mapa de monumentos. Contiene miles de monumentos a la espera de que alguien escriba un artículo sobre ellos. Puedes ampliar un área que te interese para ver todos los monumentos sin artículo de Wikipedia. O bien, busca por el nombre del monumento usando cualquiera de los campos de abajo. Al hacer clic en la etiqueta de cualquier monumento, te redirigirá automáticamente al editor visual.",
 	"list-of-monuments": "Lista de monumentos",

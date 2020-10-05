@@ -11,7 +11,7 @@
 	"search-startswith": "查询以此开头的文化遗产",
 	"search-contains": "查询包含此词语的文化遗产",
 	"search": "搜索",
-	"map-copyright": "维基地图测试版 | 地图数据 &copy; <a href=\"http://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+	"map-copyright": "维基地图测试版 | 地图数据 &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
 	"report-a-bug": "报告错误",
 	"introduction": "还不知道为维基百科写点什么？请试试我们的纪念碑地图。它包含数千个纪念碑，等待有人写一篇关于它们的文章。您可以放大您感兴趣的区域，看看那里没有维基百科文章的所有纪念碑。或者，使用下面的字段搜索纪念碑名称。单击任何一个纪念碑的标签会自动将您重定向到Visual Editor。",
 	"list-of-monuments": "纪念碑列表",
