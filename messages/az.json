@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nargizhasanli",
+			"Şeyx Şamil"
+		]
+	},
+	"title": "Abidələrin xəritəsi",
+	"source-code": "mənbə kodu",
+	"search-startswith": "Başlayan mədəni irs tapın",
+	"search-contains": "İçərisində olan mədəni irsi tapın",
+	"search": "Axtar",
+	"report-a-bug": "Xəta bildir",
+	"introduction": "Vikipediya üçün nə yazacağımı bilmirsən? Abidələr Xəritəmizi sınayın.Kiminsə onlara məqalə yazmasını gözləyən burda minlərlə abidə var. Wikipedia məqalələri olmadan orada olan bütün abidələri görmək üçün sizi maraqlandıran bir sahəyə yaxınlaşdıra bilərsiniz. Və ya aşağıdakı hər iki sahəni istifadə edərək abidə adına görə axtarın. Hər hansı bir abidənin etiketinə vurmaq sizi avtomatik olaraq Vizual Redaktora yönləndirəcəkdir.",
+	"list-of-monuments": "Abidələrin siyahısı",
+	"switch-to-list": "abidələrin siyahısına keçin",
+	"switch-to-map": "abidələrin xəritəsinə keçin",
+	"choose-project": "Bu layihədə itkin abidələri göstərmək üçün bir layihə seçin",
+	"campaign-new-article-summary": "Üçün yeni məqalə",
+	"filter-images-intro": "Yalnız aşağıdakı abidələri göstərin:",
+	"filter-images-true": "Mövcud bir şəkil ilə",
+	"filter-images-false": "Şəkil yoxdur",
+	"filter-images-none": "Filtri deaktiv edin"
+}
