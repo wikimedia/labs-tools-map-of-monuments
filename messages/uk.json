@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Andriy.v",
 			"Movses",
 			"Piramidion"
 		]
@@ -16,7 +17,7 @@
 	"list-of-monuments": "Список пам'яток",
 	"switch-to-list": "перейти до списку пам'яток",
 	"switch-to-map": "перейти до карти пам'яток",
-	"choose-project": "Виберіть проект, щоб показати відсутні в ньому статті про пам'ятки",
+	"choose-project": "Виберіть проєкт, щоб показати відсутні в ньому статті про пам'ятки",
 	"campaign-new-article-summary": "Нова стаття для",
 	"filter-images-intro": "Показувати тільки пам'ятки із:",
 	"filter-images-true": "Із зображеннями",

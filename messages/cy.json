@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robin Owain"
+		]
+	},
+	"title": "Map o Henebion",
+	"source-code": "cod y ffynhonnell",
+	"search-startswith": "Chwilio am henebion gan ddechrau gyda",
+	"search-contains": "Canfod henebion ac etifeddiaeth sy'n cynnwys",
+	"search": "Chwilio",
+	"report-a-bug": "adrodd am wall",
+	"introduction": "Ddim yn sicr beth i'w sgwennu amdano ar Wicipedia? Rhowch gynnig ar y teclyn hwn 'Map yr Henebion'. Mae'n cynnwys miloedd o henebion sy'n disgwyl yn amyneddgar i rywun droi atyn nhw a sgwennu amdanynt! Gallwch zwmio i ardal eich diddordeb a chanfod henebion sydd heb erthygl ar Wicipedia. Neu chwiliwch am enw heneb arbennig. Os cliciwch ar heneb, efallai y gwneith eich hailgyfeirio i'r 'Cymhorthydd Cyfieithu'.",
+	"list-of-monuments": "Rhestr o henebion",
+	"switch-to-list": "newid i weld rhestr o henebion",
+	"switch-to-map": "newid i weld map o'r henebion",
+	"choose-project": "dewisiwch brosiect i weld yr henebion perthnasol",
+	"campaign-new-article-summary": "Erthygl newydd am",
+	"filter-images-intro": "Dim ond dangos henebion gyda:",
+	"filter-images-true": "Delwedd sydd ar gael",
+	"filter-images-false": "Dim delwedd ar gael",
+	"filter-images-none": "Analluogi'r ffiltr"
+}
