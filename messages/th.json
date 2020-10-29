@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "รหัสต้นฉบับ",
+	"search-startswith": "ค้นหามรดกทางวัฒนธรรมที่ขึ้นต้นด้วย",
+	"search-contains": "ค้นหามรดกทางวัฒนธรรมที่มี",
+	"search": "ค้นหา",
+	"report-a-bug": "รายงานข้อขัดข้อง",
+	"list-of-monuments": "รายชื่ออนุสาวรีย์"
+}
