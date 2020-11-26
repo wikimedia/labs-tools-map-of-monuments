@@ -10,5 +10,10 @@
 	"search-contains": "ค้นหามรดกทางวัฒนธรรมที่มี",
 	"search": "ค้นหา",
 	"report-a-bug": "รายงานข้อขัดข้อง",
-	"list-of-monuments": "รายชื่ออนุสาวรีย์"
+	"list-of-monuments": "รายชื่ออนุสาวรีย์",
+	"switch-to-list": "สลับไปยังรายชื่ออนุสาวรีย์",
+	"switch-to-map": "สลับไปยังแผนที่อนุสาวรีย์",
+	"choose-project": "เลือกโครงการเพื่อแสดงอนุสาวรีย์ที่ขาดหายไปในโครงการนั้น",
+	"campaign-new-article-summary": "บทความใหม่สำหรับ",
+	"filter-images-false": "ไม่มีภาพ"
 }
