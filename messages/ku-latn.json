@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bikarhêner"
+		]
+	},
+	"title": "Nexşeya Abîdeyan",
+	"source-code": "koda çavkaniyê",
+	"search-startswith": "Mîrasên çandî bibîne yên bi vê dest pê dikin",
+	"search-contains": "Mîrasên çandî peyda bike yên vê dihewînin:",
+	"search": "Lê bigere",
+	"map-copyright": "Nexşeyên Wîkîmedyayê beta | Daneya nexşeyê &copy; <a href=\"https://openstreetmap.org/copyright\">Beşdarên OpenStreetMapê</a>",
+	"report-a-bug": "çewtiyeke ragihîne",
+	"introduction": "Hêj nizanî ku çi binivîsînî ji bo Wîkîpediyayê? Nexşeya me ya Abîdeyan biceribîne. Ew bi hezaran abîdeyan dihewîne û li hêviyê ne ku kesek ji bo wan gotarekê binivîsîne. Tu dikarî qadeke ku bala te dikişîne nêzîk bikî û temamiy abîdeyên bêyî gotara Wîkîpediyayê bibînî. An, bi bikaranîna qadên li jêr, bi navê abîdeyê lê bigerî. Ger pêl bikî ser abîdeyeke wê berê te bi otomatîk bide Edîtora Dîtbarî.",
+	"list-of-monuments": "Lîsteya abîdeyan",
+	"switch-to-list": "derbasî lîsteya abîdeyan bibe",
+	"switch-to-map": "derbasî nexşeya abîdeyan bibe",
+	"choose-project": "Projeyekê bibijêre da ku abîdeyên kêm ên di wê projeyê de nîşan bide",
+	"campaign-new-article-summary": "Gotara nû ji bo",
+	"filter-images-intro": "Tenê abîdeyên tevî van nîşan bide:",
+	"filter-images-true": "Yên tevî wêneyekê",
+	"filter-images-false": "Yên bêyî wêne",
+	"filter-images-none": "Parzûnê bigire"
+}
