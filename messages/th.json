@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Aefgh39622"
+			"Aefgh39622",
+			"Just Sayori"
 		]
 	},
 	"title": "Map of Monuments",
@@ -13,7 +14,7 @@
 	"list-of-monuments": "รายชื่ออนุสาวรีย์",
 	"switch-to-list": "สลับไปยังรายชื่ออนุสาวรีย์",
 	"switch-to-map": "สลับไปยังแผนที่อนุสาวรีย์",
-	"choose-project": "เลือกโครงการเพื่อแสดงอนุสาวรีย์ที่ขาดหายไปในโครงการนั้น",
+	"choose-project": "เลือกโครงการเพื่อแสดงสถานที่สำคัญที่ขาดหายไปในโครงการนั้น",
 	"campaign-new-article-summary": "บทความใหม่สำหรับ",
 	"filter-images-false": "ไม่มีภาพ"
 }
