@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Daud I.F. Argana",
 			"J Nia30"
 		]
 	},
@@ -9,10 +10,16 @@
 	"search-startswith": "Temukan kebudayaan yang di pusakakan di mulai dengan",
 	"search-contains": "Temukan kebudayaan yang di pusakakan yang memuat",
 	"search": "Cari",
+	"map-copyright": "Beta peta Wikimedia | Data peta &copy; <a href=\"https://openstreetmap.org/copyright\">Kontributor OpenStreetMap</a>",
 	"report-a-bug": "laporkan kesalahan",
+	"introduction": "Belum tahu mau menulis apa untuk Wikipedia? Coba Peta Monumen kami. Peta Monumen berisi ribuan monumen yang menunggu seseorang menulis artikel tentang mereka. Anda bisa mencari wilayah yang Anda minati untuk melihat semua monumen di sana tanpa artikel Wikipedia. Atau, cari nama monumen menggunakan isian di bawah. Menekan label monumen akan secara otomatis membawa Anda ke Penyunting Visual.",
 	"list-of-monuments": "Daftar monumen",
 	"switch-to-list": "ganti ke daftar monumen",
 	"switch-to-map": "ganti ke peta monumen",
 	"choose-project": "Pilih proyek untuk menampilkan monumen yang hilang pada proyek itu",
-	"campaign-new-article-summary": "Artikel baru untuk"
+	"campaign-new-article-summary": "Artikel baru untuk",
+	"filter-images-intro": "Hanya tampilkan monumen dengan:",
+	"filter-images-true": "Tersedia gambar",
+	"filter-images-false": "Tidak tersedia gambar",
+	"filter-images-none": "Matikan filter"
 }
