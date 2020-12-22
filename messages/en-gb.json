@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alefar"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "source code",
+	"search-startswith": "Find cultural heritage starting with",
+	"search-contains": "Find cultural heritage containing",
+	"search": "Search",
+	"report-a-bug": "report a bug",
+	"list-of-monuments": "List of monuments",
+	"switch-to-list": "switch to list of monuments",
+	"switch-to-map": "switch to map of monuments",
+	"campaign-new-article-summary": "New article for",
+	"filter-images-intro": "Display only monuments with:",
+	"filter-images-true": "With an image available",
+	"filter-images-false": "No image available",
+	"filter-images-none": "Disable filter"
+}
