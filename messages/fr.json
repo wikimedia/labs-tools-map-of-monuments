@@ -15,14 +15,14 @@
 	"search": "Rechercher",
 	"map-copyright": "Cartes Wikimedia en bêta | Données de carte © <a href=\"https://openstreetmap.org/copyright\">contributeurs de OpenStreetMap</a>",
 	"report-a-bug": "signaler une anomalie",
-	"introduction": "Vous ne savez pas encore quoi écrire pour Wikipédia ? Vous pouvez utiliser cette carte des monuments. Elle contient des milliers de monuments qui attendent juste que quelqu’un rédige un article à leur sujet. Vous pouvez zoomer sur une zone qui vous intéresse et vous verrez des monuments sans article Wikipédia. Ou vous pouvez effectuer une recherche par nom de monument en utilisant un des champs ci-dessous. En cliquant sur le nom d’un monument quelconque vous serez redirigé vers l’Éditeur visuel.",
+	"introduction": "Vous ne savez pas encore quoi écrire pour Wikipédia ? Vous pouvez utiliser cette carte des monuments. Elle contient des milliers de monuments qui attendent juste que quelqu’un rédige un article à leur sujet. Vous pouvez zoomer sur une zone qui vous intéresse et vous verrez des monuments sans article Wikipédia. Ou vous pouvez effectuer une recherche par nom de monument en utilisant un des champs ci-dessous. En cliquant sur le nom d’un monument quelconque vous serez redirigé vers l’Éditeur Visuel.",
 	"list-of-monuments": "Liste des monuments",
 	"switch-to-list": "bouton pour lister les monuments",
 	"switch-to-map": "basculer vers la carte des monuments",
 	"choose-project": "Sélectionnez un projet pour afficher les monuments manquants dans ce projet",
 	"campaign-new-article-summary": "Nouvel article pour",
-	"filter-images-intro": "Afficher seulement les monuments :",
+	"filter-images-intro": "Afficher seulement les monuments :",
 	"filter-images-true": "avec une image disponible",
-	"filter-images-false": "sans image disponible",
-	"filter-images-none": "désactiver le filtre"
+	"filter-images-false": "Aucune image disponible",
+	"filter-images-none": "Désactiver le filtre"
 }
