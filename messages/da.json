@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Peterleth",
 			"Saederup92"
 		]
 	},
@@ -9,7 +10,9 @@
 	"search-startswith": "Find kultur arv som begynder med",
 	"search-contains": "Find kultur arv som indeholder",
 	"search": "Søg",
+	"map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
 	"report-a-bug": "rapportér en fejl",
+	"introduction": "Ved du ikke hvad du skal skrive på Wikipedia endnu? Prøv vores Map of Monuments-kort. Det indeholder tusindvis af kulturminder som bare venter på at nogen skal skrive en artikel om dem. Du kan zoome ind på områder som interesserer dig, og se alle de kulturminder der ikke har Wikipedia-artikler. Eller søg efter monumentets navn ved brug af et af  felterne nedenfor. Når du klikker på en kulturmindets navn vil du automatisk blive ført videre til den visuelle editor på Wikipedia.",
 	"list-of-monuments": "Liste over monumenter",
 	"switch-to-list": "skift til liste over monumenter",
 	"switch-to-map": "skift til kort over monumenter",

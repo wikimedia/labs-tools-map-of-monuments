@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Martin Urbanec",
-			"Robby"
+			"Robby",
+			"Verdy p"
 		]
 	},
 	"title": "Name of this app",
@@ -17,8 +18,8 @@
 	"switch-to-map": "Button that will switch you to map view of monuments",
 	"choose-project": "Introduction shown in the \"Choose project\" dialog shown by switch to list button",
 	"campaign-new-article-summary": "Prefilled summary when campaign query parameter is passed.\nUsed to track articles created because of a campaign somehow.",
-	"filter-images-intro": "Introductory text for the image filter option",
-	"filter-images-true": "Description of the image filter option",
-	"filter-images-false": "Description of the image filter option",
+	"filter-images-intro": "Introductory text for the image filter option (two options)",
+	"filter-images-true": "Description of one of the image filter options after {{msg-wm|Map-of-monuments-filter-images-intro}}.",
+	"filter-images-false": "Description of one of the image filter options after {{msg-wm|Map-of-monuments-filter-images-intro}}.",
 	"filter-images-none": "Description of the image filter option"
 }

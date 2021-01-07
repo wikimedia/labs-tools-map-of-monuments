@@ -10,7 +10,16 @@
 	"search-startswith": "Cari warisan budaya bermula dengan",
 	"search-contains": "Cari warisan budaya yang mengandungi",
 	"search": "Cari",
+	"map-copyright": "Beta peta Wikimedia | Data peta &copy; <a href=\"https://openstreetmap.org/copyright\">Penyumpang OpenStreetMap</a>",
 	"report-a-bug": "Laporkan ralat",
+	"introduction": "Tidak tahu mahu tulis apa untuk Wikipedia? Cuba Peta Monumen kami. Ia mengandungi beribu-ribu monumen hanya menunggu seseorang untuk menulis rencana tentangnya. Anda boleh zum ke kawasan yang anda minat untuk lihat semua monumen di sana tanpa rencana Wikipedia. Atau, cari mengikut nama monumen menggunakan medan di bawah. Klik sebarang label monumen akan melencongkan anda ke Penyunting Visual.",
 	"list-of-monuments": "Senarai monumen",
-	"campaign-new-article-summary": "Rencana baru untuk"
+	"switch-to-list": "tukar ke senarai monumen",
+	"switch-to-map": "tukar ke peta monument",
+	"choose-project": "Pilih projek untuk tunjukkan monumen hilang di projek itu",
+	"campaign-new-article-summary": "Rencana baru untuk",
+	"filter-images-intro": "Hanya paparkan monumen dengan:",
+	"filter-images-true": "Dengan imej tersedia",
+	"filter-images-false": "Tiada imej tersedia",
+	"filter-images-none": "Matikan penapis"
 }
