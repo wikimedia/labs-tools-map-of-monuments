@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Revi",
-			"Ykhwong"
+			"Ykhwong",
+			"그냥기여자"
 		]
 	},
 	"title": "문화재 지도",
@@ -12,10 +13,14 @@
 	"search": "검색",
 	"map-copyright": "위키미디어 지도 베타 | 지도 데이터 &copy; <a href=\"https://openstreetmap.org/copyright\">오픈스트리트맵 기여자</a>",
 	"report-a-bug": "버그 보고",
+	"introduction": "아직 위키백과에 무엇을 써야 할지 모르겠습니까? 기념물 지도를 사용해보세요. 누군가가 문서를 작성하기를 기다리는 수천 개의 기념물이 있습니다. 관심 있는 지역으로 확대하여 위키백과 문서가 없는 모든 기념물을 볼 수 있습니다. 혹은 아래 입력란 중 하나를 이용하여 기념물 이름으로 검색하십시오. 기념물의 이름을 클릭하면 자동으로 위키백과 시각적 편집기로 리디렉션됩니다.",
 	"list-of-monuments": "문화유산 목록",
 	"switch-to-list": "문화유산 목록으로 전환",
 	"switch-to-map": "문화유산 지도로 전환",
 	"choose-project": "해당 프로젝트에 없는 문화유산을 표시하려면 프로젝트를 선택하십시오",
+	"campaign-new-article-summary": "새 문서 만들기:",
+	"filter-images-intro": "기념물 조건:",
+	"filter-images-true": "이미지 사용 가능",
 	"filter-images-false": "사용 가능한 이미지 없음",
 	"filter-images-none": "필터 비활성화"
 }
