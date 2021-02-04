@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Martin Urbanec",
+			"Skim",
 			"Wesalius"
 		]
 	},
@@ -17,5 +18,9 @@
 	"switch-to-list": "přepnout se na seznam památek",
 	"switch-to-map": "přepnout se na mapu památek",
 	"choose-project": "Vyberte si projekt, zobrazíme vám památky chybějící ve vámi zvoleném projektu",
-	"campaign-new-article-summary": "Nový článek pro"
+	"campaign-new-article-summary": "Nový článek pro",
+	"filter-images-intro": "Zobrazit pouze památky s:",
+	"filter-images-true": "S dostupným obrázkem",
+	"filter-images-false": "Žádný obrázek není k dispozici",
+	"filter-images-none": "Zakázat filtr"
 }
