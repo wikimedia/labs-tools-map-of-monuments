@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav.micek"
+		]
+	},
+	"title": "Mapa pamiatok",
+	"source-code": "zdrojový kód",
+	"search-startswith": "Nájsť kultúrnu pamiatku začínajúcu na",
+	"search-contains": "Nájsť kultúrnu pamiatku obsahujúcu",
+	"search": "Hľadať",
+	"map-copyright": "Mapy Wikimédie beta| Mapové data &copy; <a href=\"https://openstreetmap.org/copyright\">Prispievatelia na OpenStreetMap</a>",
+	"report-a-bug": "nahlásiť chybu",
+	"introduction": "Neviete o čom by ste napísali na Wikipédii? Skúste Mapu pamiatok. Obsahuje tisícky pamiatok, ktoré čakajú len na to, aby o nich niekto napísal článok. Priblížte si oblasť, ktorá vás zaujíma a pozrite si všetky pamiatky o ktorých na Wikipédii ešte nie je článok. Takisto môžete pamiatky vyhľadať podľa názvu použitím niektoré políčka nižšie. Kliknutím na štítok pamiatky sa dostanete priamo do editora.",
+	"list-of-monuments": "Zoznam pamiatok",
+	"switch-to-list": "prepnúť na zoznam pamiatok",
+	"switch-to-map": "prepnúť na mapu pamiatok",
+	"choose-project": "Vyberte si projekt pre zobrazenie pamiatok vo zvolenom projekte",
+	"campaign-new-article-summary": "Nový článok pre",
+	"filter-images-intro": "Ukázať iba monumenty:",
+	"filter-images-true": "s dostupným obrázkom",
+	"filter-images-false": "bez dostupného obrázka",
+	"filter-images-none": "Vypnúť filter"
+}
