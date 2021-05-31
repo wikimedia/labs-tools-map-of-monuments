@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"title": "Mapo pri monumenti",
+	"source-code": "kodexo-fonto",
+	"search-startswith": "Trovez kulturala heredajo komencanta kun",
+	"search-contains": "Trovez kulturala heredajo kontenanta",
+	"search": "Serchar",
+	"map-copyright": "Wikimedia mapi, versiono ''beta'' | Datumaro pri mapi &copy; <a href=\"https://openstreetmap.org/copyright\">kontributeri di OpenStreetMap</a>",
+	"report-a-bug": "Informez defekto",
+	"introduction": "Ankore vu ne savas pri quo skribar en Wikipedia? Probez nia \"Mapo di monumenti\". Ol kontenas mili di monumenti qui bezonas ke ulu skribez artiklo pri li. Se vu deziras vidar omna monumenti en ula regiono qui ne havas artikli pri li, vu povas facar 'zoom' en l'areo korespondanta. O serchez segun la nomo dil monumento, uzanta irga ek la feldi adinfre. Se vu kliktez en l'etiketo dil monumento, automatale vu sendesos a la Visual Editor de Wikipedio.",
+	"list-of-monuments": "Listo di monumenti",
+	"switch-to-list": "irez a listo di monumenti",
+	"switch-to-map": "irez a mapo di monumenti",
+	"choose-project": "Selektez projeto por vidar mankanta monumenti en ol",
+	"campaign-new-article-summary": "Nov artiklo pri",
+	"filter-images-intro": "Montrez nur monumenti kun:",
+	"filter-images-true": "Kun imajo disponebla",
+	"filter-images-false": "Nula imajo disponebla",
+	"filter-images-none": "Nekapabligez filtrilo"
+}
