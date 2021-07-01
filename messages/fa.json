@@ -1,10 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amirsara"
+			"Amirsara",
+			"Jeeputer"
 		]
 	},
+	"title": "نقشهٔ یادمان‌ها",
 	"source-code": "کد منبع",
+	"search-startswith": "یافتن میراث فرهنگی شروع‌شونده با",
+	"search-contains": "یافتن میراث فرهنگی شامل",
 	"search": "جستجو",
-	"report-a-bug": "گزارش یک اشکال"
+	"map-copyright": "نقشه‌های بتای ویکی‌مدیا | داده‌های نقشه &copy; <a href=\"https://openstreetmap.org/copyright\">مشارکت‌کنندگان اوپن‌استریت‌مپ</a>",
+	"report-a-bug": "گزارش یک اشکال",
+	"list-of-monuments": "فهرست یادمان‌ها",
+	"switch-to-list": "تغییر به فهرست یادمان‌ها",
+	"switch-to-map": "تغییر به نقشهٔ یادمان‌ها",
+	"choose-project": "انتخاب یک پروژه برای نمایش یادمان‌های ناموجود در آن پروژه",
+	"campaign-new-article-summary": "مقالهٔ تازه برای",
+	"filter-images-intro": "تنها نمایش یادمان‌های دارای:",
+	"filter-images-true": "یک تصویر موجود",
+	"filter-images-false": "بدون تصویر موجود",
+	"filter-images-none": "غیرفعال‌سازی پالایه"
 }
