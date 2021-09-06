@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Olve Utne"
+		]
+	},
+	"title": "Kultuvvramujjtokárrta",
+	"source-code": "Gálldokuvvda",
+	"search-startswith": "Gávna kultuvvramujtov gie namma állgá",
+	"search-contains": "Gávna kultuvvramujtov gie nama sinne lä",
+	"search": "Åtså",
+	"map-copyright": "Wikimedia kárta beta | Kárrtadáhtá &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+	"report-a-bug": "diededa vige birra",
+	"introduction": "I änj diede mav dån galga Wikipediaj tjállet? Pruvvu mija Kultuvvramujjtokártav. Danne l tuvsána mujto gie bär vurrdi gu nágan gallgá tjállet artijjkalav dáj birra. Duv máhtá vádtset dán åssáj kártan gunne dån sida vaj vuäjdnet gájk mujtojt danne gie ällä Wikipedia-artijjkala sija birra.",
+	"list-of-monuments": "Kultuvvramujjtolissto",
+	"switch-to-list": "mulsuda kultuvvramujjtolisstoj",
+	"switch-to-map": "mulsuda kultuvvramujjtokárrtaj",
+	"choose-project": "Vällji prosjiektav vaj vuosedit kultuvvramujtojt gie dárbahi biejjaduvvut prosjäkktaj",
+	"campaign-new-article-summary": "Åđđå kampánnjaartijjkal",
+	"filter-images-intro": "Vuoseda bär kultuvvramujtojt ...",
+	"filter-images-true": "... gie idni gåvåv",
+	"filter-images-false": "... gie e ane gåvåv",
+	"filter-images-none": "Hiejte filltirav"
+}
