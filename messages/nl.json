@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"McDutchie",
 			"Optilete",
 			"Siebrand"
 		]
@@ -13,12 +14,12 @@
 	"search": "Zoeken",
 	"map-copyright": "Wikimedia maps beta | Kaartgegevens &copy; <a href=\"https://openstreetmap.org/copyright\">bijdragers aan OpenStreetMap</a>",
 	"report-a-bug": "Probleem melden",
-	"introduction": "Weet u nog niet wat u aan Wikipedia wilt bijdragen? Kijk eens naar onze Monumentenkaart. Die bevat duizenden monumenten waar nog niemand iets over heeft geschreven. U kunt inzoomen op een gebied waar u interesse in hebt om alle monumenten weer te geven waarover nog geen pagina bestaat in Wikipedia. U kunt ook zoeken op monumentnaam via het onderstaande veld. Klik op het label van een monument om automatisch doorverwezen te worden naar het bewerkingsvenster.",
+	"introduction": "Weet u nog niet wat u aan Wikipedia wilt bijdragen? Kijk eens naar onze Monumentenkaart. Die bevat duizenden monumenten waar nog niemand iets over heeft geschreven. U kunt op een gebied van uw interesse inzoomen om alle monumenten zonder Wikipedia-artikel weer te geven. U kunt via het onderstaande veld ook zoeken op monumentnaam. Klik op het label van een monument om automatisch doorverwezen te worden naar het bewerkingsvenster.",
 	"list-of-monuments": "Monumentenlijst",
 	"switch-to-list": "wisselen naar monumentenlijst",
 	"switch-to-map": "wisselen naar monumentenkaart",
-	"choose-project": "Kies een project om missende monumenten in dat project weer te geven",
-	"campaign-new-article-summary": "Nieuwe pagina voor",
+	"choose-project": "Kies een project om ontbrekende monumenten in dat project weer te geven",
+	"campaign-new-article-summary": "Nieuw artikel voor",
 	"filter-images-intro": "Alleen monumenten weergeven met:",
 	"filter-images-true": "Met een afbeelding",
 	"filter-images-false": "Zonder afbeelding",
