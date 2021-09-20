@@ -2,13 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Dj",
+			"GBAB",
 			"Pasztilla"
 		]
 	},
-	"title": "Nevezetes helyek térképe",
+	"title": "Műemléktérkép",
 	"source-code": "forráskód",
+	"search-startswith": "Kulturális örökség keresése a következő kezdőbetűvel:",
+	"search-contains": "Kulturális örökség keresése, amely tartalmazza a következőt:",
 	"search": "Keresés",
-	"map-copyright": "Wikimedia térkép béta | térkép adatok &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap közreműködők</a>",
-	"report-a-bug": "hibajelentés",
-	"list-of-monuments": "Nevezetes helyek listája"
+	"map-copyright": "Wikimedia térkép (béta) | térképadatok &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap-közreműködők</a>",
+	"report-a-bug": "hibabejelentés",
+	"introduction": "Még nem tudja, mit írjon a Wikipédiára? Próbálja ki a műemlékek térképét. Több ezer műemléket tartalmaz, amelyek csak arra várnak, hogy valaki szócikket írjon róluk. Ráközelíthet egy Önt érdeklő területre, hogy az összes ott található olyan műemléket lássa, amelyről még nincs Wikipédia-szócikk. Vagy keressen rá az emlékmű nevére alapján az alábbi mezők valamelyikével. Az emlékmű címkéjére kattintva automatikusan átkerül a Wikipédia vizuális szerkesztőjébe.",
+	"list-of-monuments": "Műemlékek listája",
+	"switch-to-list": "ugrás a műemlékek listájára",
+	"switch-to-map": "ugrás a műemlékek térképére",
+	"choose-project": "Projekt kiválasztása az adott projektből hiányzó műemlékek megjelenítéséhez",
+	"campaign-new-article-summary": "Új szócikk erről:",
+	"filter-images-intro": "Csak a következő műemlékek megjelenítése:",
+	"filter-images-true": "Képpel",
+	"filter-images-false": "Kép nélkül",
+	"filter-images-none": "Szűrő letiltása"
 }
