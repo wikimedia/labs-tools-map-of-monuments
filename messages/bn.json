@@ -1,11 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anupamdutta73",
 			"Titodutta",
 			"আফতাবুজ্জামান"
 		]
 	},
+	"title": "স্মৃতিস্তম্ভের মানচিত্র",
 	"source-code": "উত্স কোড",
 	"search": "অনুসন্ধান",
-	"list-of-monuments": "স্মৃতিস্তম্ভের তালিকা"
+	"list-of-monuments": "স্মৃতিস্তম্ভের তালিকা",
+	"switch-to-list": "স্মৃতিস্তম্ভের তালিকাতে চলুন",
+	"switch-to-map": "স্মৃতিস্তম্ভের মানচিত্রে চলুন",
+	"filter-images-intro": "শুধু স্মৃতিস্তম্ভ দেখান, যেখানে ...",
+	"filter-images-true": "ছবি রয়েছে",
+	"filter-images-false": "কোনো ছবি নেই",
+	"filter-images-none": "ছাঁকনি নিষ্ক্রিয় করুন"
 }
