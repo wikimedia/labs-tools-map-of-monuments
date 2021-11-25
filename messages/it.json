@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Beta16",
 			"SilviaF"
 		]
@@ -18,6 +19,8 @@
 	"switch-to-map": "passa alla mappa dei monumenti",
 	"choose-project": "Scegli un progetto per mostrare i monumenti mancanti in quel progetto",
 	"campaign-new-article-summary": "Nuova voce per",
+	"filter-images-intro": "Mostra solo monumenti con:",
 	"filter-images-true": "Con un'immagine disponibile",
-	"filter-images-false": "Nessuna immagine disponibile"
+	"filter-images-false": "Nessuna immagine disponibile",
+	"filter-images-none": "Disattiva filtro"
 }
