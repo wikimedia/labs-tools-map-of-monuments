@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirin"
+			"Mirin",
+			"Robin van der Vliet"
 		]
 	},
 	"title": "Mapo de Monumentoj",
@@ -16,5 +17,9 @@
 	"switch-to-list": "ŝalti liston de monumentoj",
 	"switch-to-map": "ŝalti mapon de monumentoj",
 	"choose-project": "Elekti projekton por prezenti mankantajn monumentojn en tiu projekto",
-	"campaign-new-article-summary": "Nova artikolo pri"
+	"campaign-new-article-summary": "Nova artikolo pri",
+	"filter-images-intro": "Montri nur monumentojn kun:",
+	"filter-images-true": "Kun disponebla bildo",
+	"filter-images-false": "Sen disponebla bildo",
+	"filter-images-none": "Malŝalti filtrilon"
 }
