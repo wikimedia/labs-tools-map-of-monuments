@@ -1,0 +1,5 @@
+#!/bin/bash
+webservice --backend=kubernetes stop
+sleep 1
+webservice --backend=kubernetes python3.9 start
+sleep 2
