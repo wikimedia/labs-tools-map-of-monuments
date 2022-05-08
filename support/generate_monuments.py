@@ -35,7 +35,7 @@ with cache.cursor() as cur:
     cur.execute('TRUNCATE TABLE monuments;')
 
 def process_url_internal(payload):
-    r = requests.get('https://tools.wmflabs.org/heritage/api/api.php', params=payload)
+    r = requests.get('https://heritage.toolforge.org/api/api.php', params=payload)
     print(r.url)
     data = r.json()
     monuments = data['monuments']
