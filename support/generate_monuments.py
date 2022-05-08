@@ -8,6 +8,7 @@ import toolforge
 from urllib.parse import quote_plus
 import requests
 import hashlib
+import time
 
 # Load configuration
 __dir__ = os.path.dirname(__file__)
@@ -37,7 +38,11 @@ with cache.cursor() as cur:
 def process_url_internal(payload):
     r = requests.get('https://heritage.toolforge.org/api/api.php', params=payload)
     print(r.url)
-    data = r.json()
+    try:
+        data = r.json()
+    except:
+        time.sleep(3)
+        return payload
     monuments = data['monuments']
     for monument in monuments:
         if monument['monument_article'] != '' and monument['lat'] is not None and monument['lon'] is not None:
