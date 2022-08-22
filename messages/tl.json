@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"GinawaSaHapon"
+		]
+	},
+	"title": "Mapa ng mga Bantayog",
+	"source-code": "source code",
+	"search-startswith": "Maghanap ng mga pamanang nagsisimula sa",
+	"search-contains": "Maghanap ng mga pamanang may",
+	"search": "Maghanap",
+	"map-copyright": "Wikimedia maps beta | Data ng mapa &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+	"report-a-bug": "mag-ulat ng bug",
+	"introduction": "Hindi alam kung anong isusulat sa Wikipedia? Subukan ang aming Mapa ng mga Bantayog. Naglalaman ito ng libo-libong mga bantayog na naghihintay lang ng kahit sinong magsusulat ng artikulo patungkol sa kanila. Makakalapit ka sa lugar na interesado kang makakita ng mga bantayog doon na wala pang artikulo sa Wikipedia. O di kaya'y hanapin ang pangalan ng bantayog gamit ang alinman sa mga field sa baba. Kusang ire-redirect ka sa Visual Editor kapag pumindot ka ng kahit anong label ng isang bantayog.",
+	"list-of-monuments": "Listahan ng mga bantayog",
+	"switch-to-list": "lumipat sa listahan ng mga bantayog",
+	"switch-to-map": "lumipat sa mapa ng mga bantayog",
+	"choose-project": "Pumili ng proyektong magpapakita ng mga nawawalang bantayog sa proyektong yon",
+	"campaign-new-article-summary": "Bagong artikulo para sa",
+	"filter-images-intro": "Ipakita lang ang mga bantayog na may:",
+	"filter-images-true": "Larawang magagamit",
+	"filter-images-false": "Walang larawang magagamit",
+	"filter-images-none": "Patayin ang filter"
+}
