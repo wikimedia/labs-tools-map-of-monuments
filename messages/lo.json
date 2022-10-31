@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lookruk"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "ລະຫັດຕົ້ນສະບັບ",
+	"search-startswith": "ຊອກຫາມໍລະດົກທາງວັດທະນະທໍາທີ່ເລີ່ມຕົ້ນດ້ວຍ",
+	"search-contains": "ຊອກຫາມໍລະດົກວັດທະນະທໍາທີ່ມີ",
+	"search": "ຊອກຫາ",
+	"map-copyright": "ແຜນທີ່ວິກິມີເດຍເບຕາ | ຂໍ້ມູນແຜນທີ່ &copy; <a href=\"https://openstreetmap.org/copyright\">ຜູ້ສະໜັບສະໜຸນ OpenStreetMap</a>",
+	"report-a-bug": "ລາຍງານຂໍ້ຂັດຂໍ້ງ",
+	"list-of-monuments": "ລາຍຊື່ອະນຸສາວະລີ",
+	"switch-to-list": "ສະຫຼັບໄປຫາລາຍຊື່ອະນຸສາວະລີ",
+	"switch-to-map": "ສະຫຼັບໄປຫາແຜນທີ່ອະນຸສາວະລີ",
+	"choose-project": "ເລືອກໂຄງການເພື່ອສະແດງສະຖານທີ່ສຳຄັນທີ່ຂາດຫາຍໄປໃນໂຄງການນັ້ນ",
+	"campaign-new-article-summary": "ບົດຄວາມໃຫມ່ສໍາລັບ",
+	"filter-images-intro": "ສະ​ແດງຜົນແຕ່ອະນຸສາວະລີທີ່:",
+	"filter-images-true": "ມີຮູບພາບປະກອບ",
+	"filter-images-false": "ບໍ່ມີຮູບພາບ",
+	"filter-images-none": "ນຳຕົວກອງອອກ"
+}
