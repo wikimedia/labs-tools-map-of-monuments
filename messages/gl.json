@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Banjo",
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
 	"title": "Mapa de monumentos",
@@ -17,5 +18,9 @@
 	"switch-to-list": "cambiar á lista de monumentos",
 	"switch-to-map": "cambiar ó mapa de monumentos",
 	"choose-project": "Seleccionar un proxecto para amosar os monumentos que faltan nese proxecto",
-	"campaign-new-article-summary": "Artigo novo para"
+	"campaign-new-article-summary": "Artigo novo para",
+	"filter-images-intro": "Mostra só os monumentos:",
+	"filter-images-true": "Con imaxe dispoñible",
+	"filter-images-false": "Sen imaxe dispoñible",
+	"filter-images-none": "Desactivar o filtro"
 }
