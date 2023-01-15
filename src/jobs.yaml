@@ -1,0 +1,9 @@
+# Toolforge Jobs declarations
+# Docs: https://wikitech.wikimedia.org/wiki/Help:Toolforge/Jobs_framework
+---
+# a cronjob to update the database
+- name: generate-monuments-daily
+  command: bash /data/project/map-of-monuments/support/generate_monuments.sh
+  image: tf-python39
+  schedule: "42 5 * * *"
+  emails: onfailure
