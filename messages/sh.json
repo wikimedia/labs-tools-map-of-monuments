@@ -6,6 +6,8 @@
 	},
 	"title": "Mapa spomenika",
 	"source-code": "izvorni kôd",
+	"search-startswith": "Nađi kulturno naslijeđe počevši s",
+	"search-contains": "Nađi kulturno naslijeđe koje sadrži",
 	"search": "Traži",
 	"report-a-bug": "prijavi grešku",
 	"list-of-monuments": "Spisak spomenika",
