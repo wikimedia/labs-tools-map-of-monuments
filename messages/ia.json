@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"title": "Mappa de monumentos",
+	"source-code": "codice fonte",
+	"search-startswith": "Trovar patrimonio cultural que comencia per",
+	"search-contains": "Trovar patrimonio cultural que contine",
+	"search": "Cercar",
+	"map-copyright": "Cartas de Wikimedia in beta | Datos cartographic &copy; <a href=\"https://openstreetmap.org/copyright\">contributores de OpenStreetMap</a>",
+	"report-a-bug": "reportar un defecto",
+	"introduction": "Non sape ancora lo que scriber pro Wikipedia? Essaya nostre Mappa de Monumentos. Illo contine milles de monumentos que attende que alcuno scribe un articulo sur illos. Tu pote facer zoom a un area que te interessa pro vider tote le monumentos in ille area sin articulos de Wikipedia. O tu pote cercar per nomine de monumento usante un del duo campos hic infra. Un clic sur le etiquetta de qualcunque monumento te redirigera automaticamente verso le Editor Visual.",
+	"list-of-monuments": "Lista de monumentos",
+	"switch-to-list": "cambiar al lista de monumentos",
+	"switch-to-map": "cambiar al mappa de monumentos",
+	"choose-project": "Selige un projecto pro monstrar le monumentos mancante in ille projecto",
+	"campaign-new-article-summary": "Nove articulo pro",
+	"filter-images-intro": "Monstrar solmente monumentos:",
+	"filter-images-true": "Con un imagine disponibile",
+	"filter-images-false": "Sin imagine disponibile",
+	"filter-images-none": "Disactivar filtro"
+}
