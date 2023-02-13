@@ -2,14 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
 	"title": "Kaart vun de Monumenter",
 	"source-code": "Quellcode",
 	"search": "Sichen",
 	"report-a-bug": "E Feeler mellen",
+	"introduction": "Dir wësst nach net, wat Dir fir d'Wikipedia schreiwe sollt? Probéiert eis Kaart vun de Monumenter. Se enthält Dausende vu Monumenter, déi just drop waarden, datt een en Artikel iwwert se schreift. Dir kënnt op ee Gebitt zoomen, dat Iech interesséiert, fir all d'Monumenter do ze gesinn, déi nach kee Wikipedia-Artikel hunn. Oder Dir sicht nom Numm vun engem Monument mat engem vun deenen zwee Felder ënnendrënner. Wann Dir op d'Bezeechnung vun engem Monument klickt, gitt Dir op de Visual Editor weidergeleet.",
 	"list-of-monuments": "Lëscht vun de Monumenter",
+	"switch-to-list": "op d'Lëscht vun de Monumenter wiesselen",
+	"switch-to-map": "op d'Kaart vun de Monumenter wiesselen",
+	"choose-project": "Wielt ee Projet fir ze gesinn, wat fir Monumenter an deem Projet feelen",
 	"campaign-new-article-summary": "Neien Artikel fir",
 	"filter-images-intro": "Nëmme Monumenter weise mat:",
 	"filter-images-true": "Mat engem disponibele Bild",
