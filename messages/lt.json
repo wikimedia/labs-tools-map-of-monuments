@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"title": "Paminklų žemėlapis",
+	"source-code": "šaltinio kodas",
+	"search-startswith": "Raskite kultūros paveldą, pradedant nuo",
+	"search-contains": "Raskite kultūros paveldą, kuriame yra",
+	"search": "Ieškoti",
+	"report-a-bug": "pranešti apie klaidą",
+	"introduction": "Dar nežinote ką parašyti Vikipedijoje? Išbandykite mūsų Paminklų žemėlapį. Jame yra tūkstančiai paminklų, kurie laukia, kol kas nors parašys straipsnį apie juos. Galite priartinti jus dominančią sritį, kad pamatytumėte visus paminklus be Vikipedijos straipsnių. Arba ieškokite pagal paminklo pavadinimą naudodami bet kurį toliau pateiktą lauką. Spustelėjus bet kurio paminklo etiketę, būsite automatiškai nukreipti į vaizdo redaktorių.",
+	"list-of-monuments": "Paminklų sąrašas",
+	"switch-to-list": "perjungti į paminklų sąrašą",
+	"switch-to-map": "perjungti į paminklų žemėlapį",
+	"choose-project": "Pasirinkite projektą, norėdami parodyti trūkstamus paminklus tame projekte",
+	"campaign-new-article-summary": "Naujas straipsnis, skirtas",
+	"filter-images-intro": "Rodyti tik paminklus su:",
+	"filter-images-true": "Su galimu vaizdu",
+	"filter-images-false": "Be galimo vaizdo",
+	"filter-images-none": "Išjungti filtrą"
+}
