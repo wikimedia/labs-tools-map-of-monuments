@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AZISS",
 			"Nargizhasanli",
 			"Şeyx Şamil"
 		]
@@ -10,6 +11,7 @@
 	"search-startswith": "Başlayan mədəni irs tapın",
 	"search-contains": "İçərisində olan mədəni irsi tapın",
 	"search": "Axtar",
+	"map-copyright": "Wikimedia beta xəritələri | Xəritə məlumatları &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap</a>",
 	"report-a-bug": "Xəta bildir",
 	"introduction": "Vikipediya üçün nə yazacağımı bilmirsən? Abidələr Xəritəmizi sınayın.Kiminsə onlara məqalə yazmasını gözləyən burda minlərlə abidə var. Wikipedia məqalələri olmadan orada olan bütün abidələri görmək üçün sizi maraqlandıran bir sahəyə yaxınlaşdıra bilərsiniz. Və ya aşağıdakı hər iki sahəni istifadə edərək abidə adına görə axtarın. Hər hansı bir abidənin etiketinə vurmaq sizi avtomatik olaraq Vizual Redaktora yönləndirəcəkdir.",
 	"list-of-monuments": "Abidələrin siyahısı",
