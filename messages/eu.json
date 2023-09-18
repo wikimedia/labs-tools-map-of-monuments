@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"An13sa"
+			"An13sa",
+			"Juele"
 		]
 	},
 	"title": "Monumentuen Mapa",
@@ -9,8 +10,15 @@
 	"search-startswith": "Bilatu hurrengoagatik hasten den kultur ondarea",
 	"search-contains": "Bilatu hurrengoa duen kultur ondarea",
 	"search": "Bilatu",
+	"map-copyright": "Wikimedia mapak beta | Maparen datuak © <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap laguntzaileak</a>",
 	"report-a-bug": "Errorea jakinarazi",
+	"introduction": "Oraindik ez dakizu zer idatzi Wikipediarako? Probatu gure Monumentuen Mapa. Milaka monumentu ditu norbaitek haiei buruzko artikulu bat idazteko zain. Interesatzen zaizun eremu batera handitu dezakezu hango monumentu guztiak Wikipediako artikulurik gabe ikusteko. Edo, bilatu monumentuaren izenaren arabera beheko edozein eremu erabiliz. Edozein monumenturen etiketan klik eginez gero, automatikoki Bisual Editorera birbideratuko zaitu.",
 	"list-of-monuments": "Monumentuen zerrenda",
 	"switch-to-list": "Monumentuen zerrendara aldatu",
-	"switch-to-map": "Monumentuen mapara aldatu"
+	"switch-to-map": "Monumentuen mapara aldatu",
+	"choose-project": "Aukeratu proiektu bat proiektu horretan falta diren monumentuak erakusteko",
+	"campaign-new-article-summary": "Artikulu berria",
+	"filter-images-true": "Irudi batekin eskuragarri",
+	"filter-images-false": "Ez dago irudirik eskuragarri",
+	"filter-images-none": "Desgaitu iragazkia"
 }
