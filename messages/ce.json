@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"title": "ХӀолламийн карта",
+	"source-code": "йуьхьанцара код",
+	"search-startswith": "Лаха культурин тӀаьхьалонан объекташ йолалуш йолу тӀера",
+	"search-contains": "Лаха культурин тӀаьхьалонан объекташ, чулацам болуш",
+	"search": "Лахар",
+	"map-copyright": "Wikimedia beta картанаш | Картин хаамаш &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap</a>",
+	"report-a-bug": "хаийта гӀалатах",
+	"list-of-monuments": "ХӀолламийн могӀам",
+	"switch-to-list": "хӀолламийн могӀаме хьажа",
+	"switch-to-map": "хӀолламийн карте хьажа",
+	"choose-project": "Хьайна гайта лууш йолу йоцучу хӀолламашна проект харжа",
+	"campaign-new-article-summary": "Керла йаззам кхунна",
+	"filter-images-intro": "Гайта хӀолламаш йолалуш йолу тӀера:",
+	"filter-images-true": "Суьрташ долуш",
+	"filter-images-false": "Сурт дац",
+	"filter-images-none": "ДӀадайа литтар"
+}
