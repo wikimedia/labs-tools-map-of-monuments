@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Алия"
+		]
+	},
+	"title": "Дурсхлын һазрин зург",
+	"source-code": "экн код",
+	"search-startswith": "... эклсн сойлын өвин зүүлсиг олх",
+	"search-contains": "...аһулсн сойлын өвин зүүлсиг олх",
+	"search": "Хәәлт",
+	"report-a-bug": "эндүһин талар илдкх",
+	"list-of-monuments": "Дурсхлын җигсәлт",
+	"switch-to-list": "дурсхлын җигсәлтүр шилҗх",
+	"switch-to-map": "дурсхлын һазрин зургур шилҗх",
+	"filter-images-none": "Шүүлтүриг унтрах"
+}
