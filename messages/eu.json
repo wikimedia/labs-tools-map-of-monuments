@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"An13sa",
+			"Atzerritik",
 			"Juele"
 		]
 	},
@@ -18,6 +19,7 @@
 	"switch-to-map": "Monumentuen mapara aldatu",
 	"choose-project": "Aukeratu proiektu bat proiektu horretan falta diren monumentuak erakusteko",
 	"campaign-new-article-summary": "Artikulu berria",
+	"filter-images-intro": "Erakutsi hauek dituzten monumentuak soilik:",
 	"filter-images-true": "Irudi batekin eskuragarri",
 	"filter-images-false": "Ez dago irudirik eskuragarri",
 	"filter-images-none": "Desgaitu iragazkia"
