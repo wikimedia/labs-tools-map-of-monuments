@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Jaroslav.micek",
+			"Oujon",
 			"Yardom78"
 		]
 	},
@@ -18,8 +19,8 @@
 	"switch-to-map": "prepnúť na mapu pamiatok",
 	"choose-project": "Vyberte si projekt pre zobrazenie pamiatok vo zvolenom projekte",
 	"campaign-new-article-summary": "Nový článok pre",
-	"filter-images-intro": "Ukázať iba monumenty:",
+	"filter-images-intro": "Ukázať iba monumenty s:",
 	"filter-images-true": "s dostupným obrázkom",
-	"filter-images-false": "bez dostupného obrázka",
+	"filter-images-false": "Žiadny obraz údaje",
 	"filter-images-none": "Vypnúť filter"
 }
