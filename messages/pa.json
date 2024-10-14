@@ -1,14 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnupamM"
+			"AnupamM",
+			"Cabal"
 		]
 	},
+	"title": "ਸਮਾਰਕਾਂ ਦਾ ਨਕਸ਼ਾ",
 	"source-code": "ਸਰੋਤ ਕੋਡ",
 	"search-startswith": "ਨਾਲ ਸ਼ੁਰੂ ਹੋਣ ਵਾਲੇ ਸੱਭਿਆਚਾਰਕ ਵਿਰਸੇ ਨੂੰ ਲੱਭੋ",
 	"search-contains": "ਸੱਭਿਆਚਾਰਕ ਵਿਰਾਸਤ ਲੱਭੋ ਜੇਦੇ ਵਿਚ",
 	"search": "ਖੋਜੋ",
-	"report-a-bug": "ਕਿਸੇ ਦੋਸ਼ ਦੀ ਇਤਲਾਹ ਦਿਉ",
+	"report-a-bug": "ਮਾਂਙਣੂ ਦੀ ਇਤਲਾਹ ਦਿਓ",
 	"list-of-monuments": "ਸਮਾਰਕਾਂ ਦੀ ਸੂਚੀ",
 	"switch-to-list": "ਸਮਾਰਕਾਂ ਦੀ ਸੂਚੀ 'ਤੇ ਜਾਓ",
 	"campaign-new-article-summary": "ਲਈ ਨਵਾਂ ਲੇਖ",
