@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Xuacu"
+			"Xuacu",
+			"YoaR"
 		]
 	},
 	"title": "Mapa de monumentos",
@@ -11,7 +12,7 @@
 	"search": "Buscar",
 	"map-copyright": "Mapes de Wikimedia beta | Datos del mapa &copy; <a href=\"https://openstreetmap.org/copyright\">collaboradores d'OpenStreetMap</a>",
 	"report-a-bug": "informar d'un fallu",
-	"introduction": "¿Entá nun sabes qué escribir en Wikipedia? Prueba'l nuesu Mapa de monumentos. Contien miles de monumentos a la espera de que daquién escriba un artículu sobro ellos. Puedes ampliar una área que t'interese pa ver tolos monumentos ensin artículu de Wikipedia. O bien, busca pol nome del monumentu usando cualesquier de los campos de más abaxo. Al pulsiar na etiqueta de cualquier monumentu, va redirixite automáticamente al editor visual.",
+	"introduction": "¿Entá nun sabes qué escribir en Wikipedia? Prueba'l nuesu Mapa de monumentos. Contién miles de monumentos a la espera de que daquién escriba un artículu sobro ellos. Puedes ampliar una área que t'interese pa ver tolos monumentos ensin artículu de Wikipedia. O bien, busca pol nome del monumentu usando cualesquier de los campos de más abaxo. Al pulsiar na etiqueta de cualquier monumentu, va redirixite automáticamente al editor visual.",
 	"list-of-monuments": "Llista de monumentos",
 	"switch-to-list": "cambiar a la llista de monumentos",
 	"switch-to-map": "cambiar al mapa de monumentos",
