@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GianAntonucci"
 		]
 	},
 	"title": "Mappa dî munumenti",
 	"source-code": "còdici surgenti",
-	"search": "Arricerca",
+	"search": "Cerca",
 	"list-of-monuments": "Elencu dî munumenti",
 	"campaign-new-article-summary": "Nova vuci pi",
 	"filter-images-intro": "Ammustra sulu munumenti cu:",
