@@ -3,7 +3,8 @@
 		"authors": [
 			"AZISS",
 			"Nargizhasanli",
-			"Şeyx Şamil"
+			"Şeyx Şamil",
+			"Əkrəm"
 		]
 	},
 	"title": "Abidələrin xəritəsi",
@@ -13,7 +14,7 @@
 	"search": "Axtar",
 	"map-copyright": "Wikimedia beta xəritələri | Xəritə məlumatları &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap</a>",
 	"report-a-bug": "Xəta bildir",
-	"introduction": "Vikipediya üçün nə yazacağımı bilmirsən? Abidələr Xəritəmizi sınayın.Kiminsə onlara məqalə yazmasını gözləyən burda minlərlə abidə var. Wikipedia məqalələri olmadan orada olan bütün abidələri görmək üçün sizi maraqlandıran bir sahəyə yaxınlaşdıra bilərsiniz. Və ya aşağıdakı hər iki sahəni istifadə edərək abidə adına görə axtarın. Hər hansı bir abidənin etiketinə vurmaq sizi avtomatik olaraq Vizual Redaktora yönləndirəcəkdir.",
+	"introduction": "Vikipediya üçün nə yazacağınızı bilmirsiniz? Abidələr Xəritəmizi sınayın. Burada kiminsə haqlarında məqalə yazmasını gözləyən minlərlə abidə var. Vikipediya məqalələri olmayan bütün abidələri görmək üçün sizi maraqlandıran bir sahəyə yaxınlaşdıra bilər, yaxud aşağıdakı sahələrin birindən istifadə edərək abidə adına görə axtarış edə bilərsiniz. Hər hansı bir abidənin etiketinə klikləmək sizi avtomatik olaraq Vizual Redaktora yönləndirəcək.",
 	"list-of-monuments": "Abidələrin siyahısı",
 	"switch-to-list": "abidələrin siyahısına keçin",
 	"switch-to-map": "abidələrin xəritəsinə keçin",
