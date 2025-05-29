@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Leducthn"
+			"Leducthn",
+			"Minh Nguyen"
 		]
 	},
 	"title": "Bản đồ Di tích",
 	"source-code": "mã nguồn",
-	"search-startswith": "Tìm di sản văn hoá bắt đầu bằng",
-	"search-contains": "Tìm di sản văn hoá bắt đầu có chứa",
+	"search-startswith": "Tìm di sản văn hóa bắt đầu bằng",
+	"search-contains": "Tìm di sản văn hóa bắt đầu có chứa",
 	"search": "Tìm",
 	"map-copyright": "bản đồ Wikimedia thử nghiệm | Dữ liệu bản đồ &copy; <a href=\"https://openstreetmap.org/copyright\">người đóng góp OpenStreetMap</a>",
 	"report-a-bug": "báo lỗi",
