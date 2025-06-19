@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rang Djambak"
+		]
+	},
+	"title": "Peta Monumen",
+	"source-code": "kode sumber",
+	"search-startswith": "Cari warisan budaya mulai dari",
+	"search-contains": "Cari warisan budaya nan manganduang",
+	"search": "Cari",
+	"map-copyright": "Beta peta Wikimedia | Data peta &copy; <a href=\"https://openstreetmap.org/copyright\">Kontributor OpenStreetMap</a>",
+	"report-a-bug": "lapor bug",
+	"introduction": "Alun tau apo nan ka ditulih di Wikipedia? Cubo Peta Monumen kami. Peta Monumen baisi ribuan monumen nan manunggu Sanak manulih tantangnyo. Sanak bisa mancari wilayah nan sanak minati untuak mancaliak kasadoan monumen di sinan nan alun ado artikel Wikipedianyo. Atau, cari namo monumen manggunoan isian di bawah. Manakan label monumen akan sacaro otomatis mambaok Sanak ka Panyuntiangan Visual.",
+	"list-of-monuments": "Daftar monumen",
+	"switch-to-list": "ganti ka daftar monumen",
+	"switch-to-map": "ganti ka peta monumen",
+	"choose-project": "Piliah proyek nan mancaliakan monumen nan ilang pado proyek tu",
+	"campaign-new-article-summary": "Artikel baru untuak",
+	"filter-images-intro": "Hanyo mancaliakan monumen jo:",
+	"filter-images-true": "Tasadio gambar",
+	"filter-images-false": "Indak tasadio gambar",
+	"filter-images-none": "Matian filter"
+}
