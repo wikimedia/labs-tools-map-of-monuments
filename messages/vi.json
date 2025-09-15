@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Leducthn",
-			"Minh Nguyen"
+			"Minh Nguyen",
+			"Yuki Shiromita"
 		]
 	},
 	"title": "Bản đồ Di tích",
@@ -17,5 +18,8 @@
 	"switch-to-list": "chuyển sang danh sách di tích",
 	"switch-to-map": "chuyển sang bản đồ di tích",
 	"choose-project": "Chọn một dự án để thấy những di tích còn thiếu của dự án đó",
-	"campaign-new-article-summary": "Bài viết mới về"
+	"campaign-new-article-summary": "Bài viết mới về",
+	"filter-images-true": "Với hình ảnh có sẵn",
+	"filter-images-false": "Không có hình ảnh nào có sẵn",
+	"filter-images-none": "Vô hiệu hóa bộ lọc"
 }
