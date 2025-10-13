@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ravi Mundkur"
+			"Ravi Mundkur",
+			"Vishwanatha Badikana"
 		]
 	},
 	"title": "ಸ್ಮಾರಕೊಲೆನ ನಕಾಶೆ",
@@ -16,5 +17,9 @@
 	"switch-to-list": "ಸ್ಮಾರಕೊಲೆನ ಪಟ್ಟಿಗ್ ಪಗರುಲೆ",
 	"switch-to-map": "ಸ್ಮಾರಕೊಲೆನ ನಕಾಶೆಗ್ ಪಗರುಲೆ",
 	"choose-project": "ಈ ಯೋಜನೆಯೆಡ್ ಬುಡುದು ಪೋಯಿನ ಸ್ಮಾರಕೊಲೆನ್ ತೋಜಾವರೆ ಒಂಜಿ ಯೋಜನೆನ್ ಆಯ್ಕೆ ಮಲ್ಪುಲೆ.",
-	"campaign-new-article-summary": "ಅಯಿಕ್ ಪೊಸ ಲೇಖನವಾದ್"
+	"campaign-new-article-summary": "ಅಯಿಕ್ ಪೊಸ ಲೇಖನವಾದ್",
+	"filter-images-intro": "ಸ್ಮಾರಕೊಲೆನ್ ಮಾತ್ರೊ ತೋಜಾವೊಡು:",
+	"filter-images-true": "ಒಂಜಿ ಚಿತ್ರೊ ತಿಕೊಂದುಂಡು",
+	"filter-images-false": "ಚಿತ್ರೊ ತಿಕೊಂದಿಜ್ಜಿ",
+	"filter-images-none": "ಶೋದಕೊನು ಉಂತಾಲೆ"
 }

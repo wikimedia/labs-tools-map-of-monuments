@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"ITZQing"
+		]
+	},
+	"title": "Mapa spomenika",
+	"source-code": "izvorni kôd",
+	"search-startswith": "Nađi kulturno naslijeđe počevši s",
+	"search-contains": "Nađi kulturno naslijeđe koje sadrži",
+	"search": "Pretraga",
+	"map-copyright": "Vikimedijine beta mape | Podaci mapa &copy; <a href=\"https://openstreetmap.org/copyright\">Doprinosioci OpenStreetMap</a>",
+	"report-a-bug": "prijavi grešku",
+	"introduction": "Ne znate šta da pišete na Vikipediji? Isprobajte Mapu spomenika. Ona sadrži hiljade spomenika koji samo čekaju da neko napiše članak o njima. Možete se zumirati na oblast koja vas zanima kako biste vidjeli sve spomenike koji tamo nemaju članke na Vikipediji. Ili, pretražujte po imenu spomenika koristeći jedno od polja ispod. Klik na bilo koju etiketu spomenika automatski će vas preusmjeriti na Vizuelni uređivač.",
+	"list-of-monuments": "Spisak spomenika",
+	"switch-to-list": "Prebaci na spisak spomenika",
+	"switch-to-map": "prebaci na mapu znamenitosti",
+	"choose-project": "Izaberite projekat za prikaz spomenika koji nedostaju u tom projektu.",
+	"campaign-new-article-summary": "Novi članak za",
+	"filter-images-intro": "Prikaži samo spomenike koji imaju:",
+	"filter-images-true": "Sa dostupnom slikom",
+	"filter-images-false": "Nema dostupne slike",
+	"filter-images-none": "Isključi filter"
+}
