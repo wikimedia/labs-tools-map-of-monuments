@@ -3,13 +3,14 @@
 		"authors": [
 			"Bennylin",
 			"Daud I.F. Argana",
-			"J Nia30"
+			"J Nia30",
+			"Penyuwangi"
 		]
 	},
 	"title": "Peta Monumen",
 	"source-code": "kode sumber",
-	"search-startswith": "Temukan kebudayaan yang dipusakakan dimulai dengan",
-	"search-contains": "Temukan kebudayaan yang dipusakakan yang memuat",
+	"search-startswith": "Temui warisan budaya yang dimulai dengan",
+	"search-contains": "Temui warisan budaya yang mengandung",
 	"search": "Cari",
 	"map-copyright": "Peta Wikimedia beta | Data peta &copy; <a href=\"https://openstreetmap.org/copyright\">Kontributor OpenStreetMap</a>",
 	"report-a-bug": "laporkan kesalahan",
