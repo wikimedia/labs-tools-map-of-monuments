@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aindriu80"
+		]
+	},
+	"title": "Léarscáil de Shéadchomharthaí",
+	"source-code": "cód foinse",
+	"search-startswith": "Aimsigh oidhreacht chultúrtha ag tosú le",
+	"search-contains": "Aimsigh oidhreacht chultúrtha ina bhfuil",
+	"search": "Cuardaigh",
+	"map-copyright": "Léarscáileanna béite Wikimedia | Sonraí léarscáile &cóipeáil; <a href=\"https://openstreetmap.org/copyright\">Rannpháirtíthe OpenStreetMap</a>",
+	"report-a-bug": "tuairiscigh fabht",
+	"introduction": "Nach bhfuil a fhios agat cad atá le scríobh do Vicipéid fós? Bain triail as ár Léarscáil Séadchomharthaí. Tá na mílte séadchomhartha ann atá ag fanacht le duine éigin alt a scríobh fúthu. Is féidir leat zúmáil isteach chuig limistéar a bhfuil suim agat ann chun na séadchomharthaí go léir nach bhfuil ailt Vicipéide iontu a fheiceáil. Nó, déan cuardach de réir ainm an tséadchomhartha ag baint úsáide as ceachtar réimse thíos. Má chliceálann tú ar lipéad aon tséadchomhartha, atreorófar go huathoibríoch chuig an Eagarthóir Amhairc thú.",
+	"list-of-monuments": "Liosta séadchomharthaí",
+	"switch-to-list": "aistrigh go dtí liosta na séadchomharthaí",
+	"switch-to-map": "aistrigh go léarscáil na séadchomharthaí",
+	"choose-project": "Roghnaigh tionscadal chun séadchomharthaí atá ar iarraidh sa tionscadal sin a thaispeáint",
+	"campaign-new-article-summary": "Airteagal nua do",
+	"filter-images-intro": "Taispeáin séadchomharthaí amháin le:",
+	"filter-images-true": "Le híomhá ar fáil",
+	"filter-images-false": "Níl aon íomhá ar fáil",
+	"filter-images-none": "Díchumasaigh an scagaire"
+}
