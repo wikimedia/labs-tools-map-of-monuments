@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "žórłowy kod",
+	"search-startswith": "Kulturne herbstwo namakać, kotrež so započina z",
+	"search-contains": "Kulturne herbstwo namakać, kotrež wobsahuje",
+	"search": "Pytać",
+	"map-copyright": "Wikimedia Maps Beta | Kartowe daty &copy; <a href=\"https://openstreetmap.org/copyright\">Awtorojo OpenStreetMap</a>",
+	"report-a-bug": "zmylk zdźělić",
+	"introduction": "Hišće njewěš, što maš za Wikipediju pisać? Wupruwuj našu kartu pomnikow. Wobsahuje tysacy pomnikow, kotrež jenož na někoho čakaja, kiž nastawk wo nich pisa. Móžeš wobwod skalěrować, kotryž će zajimuje, zo by tam wšě pomniki bjez nastawka we Wikipediji widźał. Abo pytaj z pomocu slědowaceho pola po mjenje pomnika. Hdyž na popis pomnika klikaš, dóstanješ so awtomatisce k Visual Editor.",
+	"list-of-monuments": "Lisćina pomnikow",
+	"switch-to-list": "k lisćinje pomnikow",
+	"switch-to-map": "ke karće pomnikow",
+	"choose-project": "Wubjer projekt, zo by falowace pomniki w tym projekće pokazał",
+	"campaign-new-article-summary": "Nowy nastawk za",
+	"filter-images-intro": "Jenož pomniki pokazać z:",
+	"filter-images-true": "Z wobrazom, kotryž je k dispoziciji",
+	"filter-images-false": "Žadyn wobraz k dispoziciji",
+	"filter-images-none": "Filter znjemóžnić"
+}

@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"title": "Map of Monuments",
+	"source-code": "žrědłowy kod",
+	"search-startswith": "Kulturne derbstwo namakaś, kótarež se zachopina z",
+	"search-contains": "Kulturne derbstwo namakaś, kótarež wopśimujo",
+	"search": "Pytaś",
+	"map-copyright": "Wikimedia Maps Beta | Kórtowe daty &copy; <a href=\"https://openstreetmap.org/copyright\">Awtory OpenStreetMap</a>",
+	"report-a-bug": "zmólku k wěsći daś",
+	"introduction": "Hyšći njewěš, coo maš za Wikipediju pisaś? Wopytaj našu kórtu pomnikow. Wopśimujo towzynty pomnikow, kótarež jano na někogo cakaju, kenž nastawk wó nich pišo. Móžoš wobceŕk skalěrowaś, kótaryž śi zajmujo, aby tam wšykne pomniki bźez nastawka we Wikipediji wiźeł. Abo pytaj z pomocu slědujucego póla pó mjenju pomnika. Gaž na pópisanje pomnika klikaš, dostanjoš se awtomatiski k Visual Editor.",
+	"list-of-monuments": "Lisćina pomnikow",
+	"switch-to-list": "k lisćinje pomnikow",
+	"switch-to-map": "ku kórśe pomnikow",
+	"choose-project": "Wubjeŕ projekt, aby felujuce pomniki w tom projekśe pokazał",
+	"campaign-new-article-summary": "Nowy nastawk za",
+	"filter-images-intro": "Jano pomniki pokazaś z:",
+	"filter-images-true": "Z wobrazom, kótaryž jo k dispoziciji",
+	"filter-images-false": "Žeden wobraz k dispoziciji",
+	"filter-images-none": "Filter znjemóžniś"
+}
