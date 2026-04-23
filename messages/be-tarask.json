@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Red Winged Duck",
-			"Renessaince"
+			"Renessaince",
+			"Ucukor"
 		]
 	},
 	"title": "Мапа славутасьцяў",
@@ -16,7 +17,7 @@
 	"list-of-monuments": "Сьпіс славутасьцяў",
 	"switch-to-list": "пераключыць на сьпіс славутасьцяў",
 	"switch-to-map": "пераключыць на мапу славутасьцяў",
-	"choose-project": "Абярыце праект, каб паказаць адсутныя славутасьці ў гэтым праекце",
+	"choose-project": "Абярыце праект, каб паказаць брак славутасьцяў ў гэтым праекце",
 	"campaign-new-article-summary": "Новы артыкул для",
 	"filter-images-intro": "Паказваць толькі славутасьці з:",
 	"filter-images-true": "З даступнымі выявамі",
