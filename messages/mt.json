@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"JiodoJ"
+		]
+	},
+	"title": "Mappa tal-Monumenti",
+	"source-code": "kodiċi sors",
+	"search-startswith": "Sib il-wirt kulturali li jibda bi",
+	"search-contains": "Sib il-wirt kulturali li fih",
+	"search": "Fittex",
+	"map-copyright": "Mappa Wikimedja beta | Data tal-mappa © <a href=\"https://openstreetmap.org/copyright\">Kontributuri ta' OpenStreetMap</a>",
+	"report-a-bug": "irrapporta żball",
+	"introduction": "Għadek ma tafx x'għandek tikteb fuq il-Wikipedija? Ipprova l-Mappa tal-Monumenti tagħna. Din fiha eluf ta' monumenti li qed jistennew lil xi ħadd biex jikteb artiklu dwarhom. Tista' tiżżumja fuq żona li tinteressak biex tara l-monumenti kollha li hemm fiha u li għad m'għandhomx artiklu fuq il-Wikipedija. Inkella, fittex l-isem tal-monument billi tuża wieħed mill-oqsma t'hawn taħt. Jekk tagħfas fuq it-tikketta ta' kwalunkwe monument, tiġi ridirett awtomatikament lejn l-Editur Viżwali.",
+	"list-of-monuments": "Lista ta' monumenti",
+	"switch-to-list": "biddel għal-lista ta' monumenti",
+	"switch-to-map": "biddel għall-mappa ta' monumenti",
+	"choose-project": "Agħżel proġett biex turi monumenti f'dak il-proġett",
+	"campaign-new-article-summary": "Artiklu ġdid għal",
+	"filter-images-intro": "Dieher monumenti li għandhom biss:",
+	"filter-images-true": "Ritratt disponibbli",
+	"filter-images-false": "L-ebda stampa disponibbli",
+	"filter-images-none": "Neħħi filtru"
+}
