@@ -8,7 +8,10 @@
 	},
 	"title": "Smaarak ke nakchhaa",
 	"source-code": "source code",
+	"search-startswith": "Uu cultural heritage ke khojo jon suruu hoe hae",
+	"search-contains": "Uu cultural heritage ke khojo jisme hae",
 	"search": "Khojo",
+	"map-copyright": "Wikimedia maps beta | Map data &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
 	"report-a-bug": "Ek bug ke report karo",
 	"list-of-monuments": "Monuments ke suchi",
 	"filter-images-none": "Filter ke disable karo"

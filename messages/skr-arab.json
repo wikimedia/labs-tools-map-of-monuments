@@ -1,10 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"Saraiki"
+			"Saraiki",
+			"Tauqeerkhansurani"
 		]
 	},
+	"title": "Map of Monuments",
 	"source-code": "سورس کوڈ",
+	"search-startswith": "ثقافتی ورثہ تلاش کرو جیڑھا ایں نال شروع تھیا ہووے",
+	"search-contains": "ثقافتی ورثہ تلاش کرو جیندے وچ ایں ہووے",
 	"search": "ڳولو",
-	"report-a-bug": "بڳ دی رپورٹ کرو"
+	"map-copyright": "Wikimedia maps beta | نقشے دا ڈیٹا &copy; <a href=\"https://openstreetmap.org/copyright\">OpenStreetMap contributors</a>",
+	"report-a-bug": "بڳ دی رپورٹ کرو",
+	"introduction": "کیا تساں کوں نی پتا جو وکی پیڈیا کیتے کیا لکھݨاں ہے؟ ساݙے Map of Monuments کوں آزماؤ۔ ایندے وچ ہزاراں یادگاراں ہن جیڑھیاں ایں انتظار وچ ہن جو کوئی انہاں تے مضمون لکھے۔ تساں اپݨی دلچسپی آلی تھاں تے زوم کر سڳدے ہو تاکہ اوتھاں دیاں ساریاں یادگاراں ݙیکھو جیندے تے وکی پیڈیا مضمون نی ہن۔ یا، یادگار دا ناں ہیٹھلے ݙوہاں خانیاں وچوں کہیں ہک نال لبھو۔ کہیں یادگار دے لیبل تے کلک کرݨ نال تساں آپوں ہی Visual Editor تے ریدائریکٹ تھی ویسو۔",
+	"list-of-monuments": "یادگاراں دی فہرست",
+	"switch-to-list": "یادگاراں دی فہرست تے ونجو",
+	"switch-to-map": "یادگاراں دے نقشے تے ونجو",
+	"choose-project": "ہک منصوبہ چُݨو تاکہ اوس منصوبے وچ گھاٹی یادگاراں ݙکھائیاں ونجݨ",
+	"campaign-new-article-summary": "نواں مضمون کیتے",
+	"filter-images-intro": "صرف او یادگاراں ݙکھاؤ جیندے وچ:",
+	"filter-images-true": "جیندے وچ تصویر موجود ہووے",
+	"filter-images-false": "جیندے وچ تصویر نہ ہووے",
+	"filter-images-none": "فلٹر بند کرو"
 }
