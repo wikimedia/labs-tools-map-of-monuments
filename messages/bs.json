@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Panasko",
 			"Semina x"
 		]
 	},
@@ -9,6 +10,15 @@
 	"search-startswith": "Nađi kulturno naslijeđe počevši s",
 	"search-contains": "Nađi kulturno naslijeđe koje sadrži",
 	"search": "Pretraga",
+	"report-a-bug": "Prijavi grešku",
+	"introduction": "Još ne znate šta da napišete za Wikipediju? Isprobajte našu Mapu spomenika. Sadrži hiljade spomenika koji samo čekaju da neko napiše članak o njima. Možete zumirati područje koje vas zanima da biste vidjeli sve spomenike bez članaka na Wikipediji. Ili pretražite po nazivu spomenika koristeći bilo koje polje ispod. Klikom na oznaku bilo kojeg spomenika automatski ćete se preusmjeriti na Vizualni uređivač.",
 	"list-of-monuments": "Lista spomenika",
-	"switch-to-list": "prebaci se na listu spomenika"
+	"switch-to-list": "prebaci se na listu spomenika",
+	"switch-to-map": "prebaci na mapu spomenika",
+	"choose-project": "Odaberite projekat za prikaz nedostajućih spomenika u tom projektu",
+	"campaign-new-article-summary": "Novi članak za",
+	"filter-images-intro": "Prikaži samo spomenike sa:",
+	"filter-images-true": "Sa dostupnom slikom",
+	"filter-images-false": "Nema dostupne slike",
+	"filter-images-none": "Onemogući filter"
 }
